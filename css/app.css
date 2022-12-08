@@ -208,6 +208,25 @@
   color: #475467;
 }
 
+.dropdown-menu {
+  width: 240px;
+}
+.dropdown-menu header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  width: 240px;
+}
+.dropdown-menu header .profile {
+  display: flex;
+  flex-direction: row;
+}
+.dropdown-menu header .profile .avatar {
+  width: 40px;
+  height: 40px;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -225,6 +244,8 @@
 body {
   font-family: "Inter", sans-serif;
   background: #fff;
+  width: 100vw;
+  height: 100vh;
 }
 
 .container {

@@ -147,6 +147,7 @@
   display: flex;
   column-gap: 16px;
   margin-bottom: 40px;
+  font-size: 12px;
 }
 
 .design-badge {
@@ -189,8 +190,9 @@
 }
 
 .supportive-text {
-  color: purple;
+  color: #8654E1;
   margin-bottom: 6px;
+  font-weight: 500;
 }
 
 body {

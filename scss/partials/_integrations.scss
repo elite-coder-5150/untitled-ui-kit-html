@@ -1,0 +1,30 @@
+/***** TODO: i'll figure this out when i get up in the morning *****/
+.integrations {
+    padding: 96px 0;
+    text-align: center;
+    // flex: 1 1 100%;
+
+    
+    .row {
+        .box {
+            width: 384px;
+            margin-bottom: 64px;
+        }
+    }
+    .view {
+        color: $clr-primary;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top: 20px; 
+    }
+
+    .title {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 8px;
+    }
+    .desc {
+        margin-bottom: 20px;
+        color: #475467;
+    }
+}

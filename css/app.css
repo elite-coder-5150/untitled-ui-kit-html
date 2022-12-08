@@ -183,9 +183,29 @@
   cursor: pointer;
 }
 
+/***** TODO: i'll figure this out when i get up in the morning *****/
 .integrations {
   padding: 96px 0;
   text-align: center;
+}
+.integrations .row .box {
+  width: 384px;
+  margin-bottom: 64px;
+}
+.integrations .view {
+  color: #8654E1;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.integrations .title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.integrations .desc {
+  margin-bottom: 20px;
+  color: #475467;
 }
 
 * {
@@ -204,7 +224,7 @@
 
 body {
   font-family: "Inter", sans-serif;
-  background: #fafafa;
+  background: #fff;
 }
 
 .container {
@@ -262,10 +282,44 @@ button:hover {
   width: 48px;
   height: 48px;
 }
+.icon .notion-icon {
+  background: url("../img/icons/notion-icon.png") no-repeat;
+  width: 64px;
+  height: 64px;
+}
+.icon .slack-icon {
+  background: url("../img/icons/slack-icon.png") no-repeat;
+  width: 64px;
+  height: 64px;
+}
+.icon .google-drive-icon {
+  background: url("../img/icons/google-drive-icon.png") no-repeat;
+  width: 64px;
+  height: 64px;
+}
+.icon .intercom-icon {
+  background: url("../img/icons/intercm-icon.png") no-repeat;
+  width: 64px;
+  height: 64px;
+}
+.icon .jira-icon {
+  background: url("../img/icons/jira-icon.png") no-repeat;
+  width: 64px;
+  height: 64px;
+}
+.icon .dropbox-icon {
+  background: url("../img/icons/dropbox-icon.png") no-repeat;
+  width: 64px;
+  height: 64px;
+}
 
 .row {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+}
+.row .box {
+  width: 554px;
+  margin-bottom: 30px;
 }

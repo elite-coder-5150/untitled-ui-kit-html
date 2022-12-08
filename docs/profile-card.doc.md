@@ -10,3 +10,4 @@ This component has the following elements:
 - [x] close button
 - [x] button group
 - [x] two buttons: secondary and primary
+

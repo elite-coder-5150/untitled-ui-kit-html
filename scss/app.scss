@@ -1,3 +1,92 @@
 @import "partials/vars";
 @import "partials/mixins";
 @import "partials/error-pages";
+@import "partials/buttons";
+@import "partials/profile";
+@import "partials/badge";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.supportive-text {
+    color: $clr-primary;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+body {
+    font-family: $base-font-family;
+    background: #fafafa;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.section-heading {
+    font-size: 60px;
+}
+
+.large-text {
+    font-size: 20px;
+    color: #445469;
+    margin-top: 24px;
+}
+
+button {
+    border: none;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.icon {
+    display: inline-flex;
+    .back-icon {
+        background: url('../img/back-error-icon.png') no-repeat;
+        width: 24px;
+        height: 24px;
+        margin-top: -3px;
+        margin-right: 10px;
+    }
+
+    .close-icon {
+        background: url('../img/profile/close-icon.png') no-repeat;
+        width: 24px;
+        height: 24px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .layers-icon {
+        background: url('../img/layers-icon.png') no-repeat;
+        width: 48px;
+        height: 48px;
+    }
+
+    .sisyphus-icon {
+        background: url('../img/sisyphus-icon.png') no-repeat;
+        width: 48px;
+        height: 48px;
+    }
+
+    .catalog-icon {
+        background: url('../img/catalog-icon.png') no-repeat;
+        width: 48px;
+        height: 48px;
+    }
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

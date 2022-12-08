@@ -1,0 +1,106 @@
+.profile-card {
+    width: 400px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+
+    border: 1px solid $clr-base-borde;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+
+    .card-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 16px 20px 20px;
+    }
+
+    .title {
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+    .profile {
+        margin-top: -80px;
+        .info {
+            margin-top: -10px;
+            margin-bottom: 20px;
+        }
+        .username {
+            font-size: 24px;
+            font-weight: 500;
+        }
+
+        .email {
+            font-size: 14px;
+            color: #445469;
+            margin-top: 6px;
+        }
+    }
+
+    .about {
+        margin-top: 24px;
+
+        p {
+            color: $clr-base-text;
+            font-size: 14px;
+            margin-top: 6px;
+            line-height: 1.25rem;
+        }
+    }
+
+    .experience {
+        margin-top: 24px;
+    }
+
+    h1.section-title {
+        font-size: 14px;
+        // font-weight: 500;
+        font-weight: normal;
+        letter-spacing: 1px;
+    }
+    .card-body {
+        padding: 24px;
+    }
+
+    .work-history-list {
+        list-style: none;
+
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 16px;
+
+        li {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 16px;
+
+            .position {
+                font-size: 14px;
+                font-weight: 500;
+                color: #314056;
+            }
+
+            .company-name {
+                font-size: 14px;
+                color: #445469;
+                text-transform: capitalize;
+            }
+
+            .date {
+                font-size: 14px;
+                color: #445469;
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .icon {
+        margin-right: 15px;
+    }
+}

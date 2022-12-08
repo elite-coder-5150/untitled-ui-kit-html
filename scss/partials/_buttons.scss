@@ -1,0 +1,47 @@
+.lg-secondary {
+    background: #fff;
+    border: 1px solid $clr-base-borde;
+    padding: 18px 28px;
+    font-size: 18px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.lg-primary {
+    padding: 18px 28px;
+    font-size: 18px;
+    background: $clr-primary;
+    color: #fff;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 8px;
+}
+
+.md-secondary {
+    background: #fff;
+    border: 1px solid $clr-base-borde;
+    padding: 10px 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.md-primary {
+    background: $clr-primary;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-transform: capitalize;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+    align-items: center;
+    margin-top: 20px;
+}

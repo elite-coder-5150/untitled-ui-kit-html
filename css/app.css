@@ -1,0 +1,250 @@
+.error-page-one {
+  padding-top: 256px;
+}
+.error-page-one .btn-group {
+  margin-top: 48px;
+  display: flex;
+  column-gap: 24px;
+}
+
+.lg-secondary {
+  background: #fff;
+  border: 1px solid #CFD5DE;
+  padding: 18px 28px;
+  font-size: 18px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+}
+
+.lg-primary {
+  padding: 18px 28px;
+  font-size: 18px;
+  background: #8654E1;
+  color: #fff;
+  font-weight: 600;
+  text-transform: capitalize;
+  border-radius: 8px;
+}
+
+.md-secondary {
+  background: #fff;
+  border: 1px solid #CFD5DE;
+  padding: 10px 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+}
+
+.md-primary {
+  background: #8654E1;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-transform: capitalize;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row;
+  column-gap: 12px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profile-card {
+  width: 400px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  border: 1px solid #CFD5DE;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.profile-card .card-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 16px 20px 20px;
+}
+.profile-card .title {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.profile-card .profile {
+  margin-top: -80px;
+}
+.profile-card .profile .info {
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+.profile-card .profile .username {
+  font-size: 24px;
+  font-weight: 500;
+}
+.profile-card .profile .email {
+  font-size: 14px;
+  color: #445469;
+  margin-top: 6px;
+}
+.profile-card .about {
+  margin-top: 24px;
+}
+.profile-card .about p {
+  color: #475467;
+  font-size: 14px;
+  margin-top: 6px;
+  line-height: 1.25rem;
+}
+.profile-card .experience {
+  margin-top: 24px;
+}
+.profile-card h1.section-title {
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+.profile-card .card-body {
+  padding: 24px;
+}
+.profile-card .work-history-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+.profile-card .work-history-list li {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+}
+.profile-card .work-history-list li .position {
+  font-size: 14px;
+  font-weight: 500;
+  color: #314056;
+}
+.profile-card .work-history-list li .company-name {
+  font-size: 14px;
+  color: #445469;
+  text-transform: capitalize;
+}
+.profile-card .work-history-list li .date {
+  font-size: 14px;
+  color: #445469;
+  margin-top: 20px;
+}
+.profile-card .icon {
+  margin-right: 15px;
+}
+
+.badge-group {
+  display: flex;
+  column-gap: 16px;
+  margin-bottom: 40px;
+}
+
+.design-badge {
+  background: #FAF5FF;
+  color: #703FCD;
+  padding: 2px 8px;
+  border: 1px solid #703FCD;
+  border-radius: 16px;
+}
+
+.product-badge {
+  background: #EDF8FF;
+  color: #005EDB;
+  padding: 2px 8px;
+  border: 1px solid #005EDB;
+  border-radius: 16px;
+}
+
+.management-badge {
+  background: #FFF2FB;
+  color: #D30076;
+  padding: 2px 8px;
+  border: 1px solid #D30076;
+  border-radius: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.supportive-text {
+  color: purple;
+  margin-bottom: 6px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #fafafa;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.section-heading {
+  font-size: 60px;
+}
+
+.large-text {
+  font-size: 20px;
+  color: #445469;
+  margin-top: 24px;
+}
+
+button {
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.icon {
+  display: inline-flex;
+}
+.icon .back-icon {
+  background: url("../img/back-error-icon.png") no-repeat;
+  width: 24px;
+  height: 24px;
+  margin-top: -3px;
+  margin-right: 10px;
+}
+.icon .close-icon {
+  background: url("../img/profile/close-icon.png") no-repeat;
+  width: 24px;
+  height: 24px;
+}
+.icon .layers-icon {
+  background: url("../img/layers-icon.png") no-repeat;
+  width: 48px;
+  height: 48px;
+}
+.icon .sisyphus-icon {
+  background: url("../img/sisyphus-icon.png") no-repeat;
+  width: 48px;
+  height: 48px;
+}
+.icon .catalog-icon {
+  background: url("../img/catalog-icon.png") no-repeat;
+  width: 48px;
+  height: 48px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

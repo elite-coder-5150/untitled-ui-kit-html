@@ -156,6 +156,9 @@
   border: 1px solid #703FCD;
   border-radius: 16px;
 }
+.design-badge:hover {
+  cursor: pointer;
+}
 
 .product-badge {
   background: #EDF8FF;
@@ -164,6 +167,9 @@
   border: 1px solid #005EDB;
   border-radius: 16px;
 }
+.product-badge:hover {
+  cursor: pointer;
+}
 
 .management-badge {
   background: #FFF2FB;
@@ -171,6 +177,9 @@
   padding: 2px 8px;
   border: 1px solid #D30076;
   border-radius: 16px;
+}
+.management-badge:hover {
+  cursor: pointer;
 }
 
 * {
@@ -225,6 +234,9 @@ button:hover {
   background: url("../img/profile/close-icon.png") no-repeat;
   width: 24px;
   height: 24px;
+}
+.icon .close-icon:hover {
+  cursor: pointer;
 }
 .icon .layers-icon {
   background: url("../img/layers-icon.png") no-repeat;

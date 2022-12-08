@@ -2,6 +2,7 @@
     display: flex;
     column-gap: 16px;
     margin-bottom: 40px;
+    font-size: 12px;
 }
 .design-badge {
     background: $clr-design-badge-bg;
@@ -9,6 +10,10 @@
     padding: 2px 8px;
     border: 1px solid $clr-design-badge-text;
     border-radius: 16px;
+
+    &:hover {
+        cursor: pointer;
+    }
 } 
 
 .product-badge {
@@ -17,6 +22,10 @@
     padding: 2px 8px;
     border: 1px solid $clr-prodect-badge-text;
     border-radius: 16px;
+
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .management-badge {
@@ -25,4 +34,8 @@
     padding: 2px 8px;
     border: 1px solid $clr-management-badge-text;
     border-radius: 16px;
+
+    &:hover {
+        cursor: pointer;
+    }
 }

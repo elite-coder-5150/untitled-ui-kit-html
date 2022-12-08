@@ -322,6 +322,21 @@ button:hover {
   width: 24px;
   height: 24px;
 }
+.icon .lightning-bolt-icon {
+  background: url("../img/dropdown-menu/lightning-bolt-icon.png") no-repeat;
+  width: 24px;
+  height: 24px;
+}
+.icon .email-icon {
+  background: url("../img/dropdown-menu/email-icon.png") no-repeat;
+  width: 24px;
+  height: 24px;
+}
+.icon .team-icon {
+  background: url("../img/dropdown-menu/team-icon.png") no-repeat;
+  width: 24px;
+  height: 24px;
+}
 
 .row {
   display: flex;

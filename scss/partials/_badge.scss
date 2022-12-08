@@ -1,0 +1,28 @@
+.badge-group {
+    display: flex;
+    column-gap: 16px;
+    margin-bottom: 40px;
+}
+.design-badge {
+    background: $clr-design-badge-bg;
+    color: $clr-design-badge-text;
+    padding: 2px 8px;
+    border: 1px solid $clr-design-badge-text;
+    border-radius: 16px;
+} 
+
+.product-badge {
+    background: $clr-prodect-badge-bg;
+    color: $clr-prodect-badge-text;
+    padding: 2px 8px;
+    border: 1px solid $clr-prodect-badge-text;
+    border-radius: 16px;
+}
+
+.management-badge {
+    background: $clr-management-badge-bg;
+    color: $clr-management-badge-text;
+    padding: 2px 8px;
+    border: 1px solid $clr-management-badge-text;
+    border-radius: 16px;
+}

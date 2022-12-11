@@ -1,3 +1,17 @@
 @function px-to-rem($px, $value: 16px) {
   @return ($px / $value) * 1rem;
 }
+
+
+
+@mixin mobile {
+    @media(width <= #{$mobile-width}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media(min-width: #{$desktop-width}) {
+        @content;
+    }
+}

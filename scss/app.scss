@@ -25,8 +25,9 @@
 body {
     font-family: $base-font-family;
     background: #fff;
-    width: 100vw;
+    width: 1680px;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 .container {
@@ -192,6 +193,13 @@ button {
     }
 }
 
+.section-sep {
+    background: url('../img/blog/abstract-bg.png') center center no-repeat;
+    width: 100%;
+    object-fit: cover;
+    height: 462px;
+    overflow: hidden;;
+}
 .row {
     display: flex;
     flex-direction: row;
@@ -199,7 +207,7 @@ button {
     align-items: center;
     
     margin-bottom: 48px;
-    
+
     .box {
         width: 554px;
         margin-bottom: 30px;

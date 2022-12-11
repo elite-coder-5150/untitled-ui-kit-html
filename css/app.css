@@ -224,6 +224,7 @@
 
 section {
   padding-top: 96px;
+  overflow: hidden;
 }
 
 .showcase {
@@ -395,6 +396,12 @@ button:hover {
   background: url("../img/dropdown-menu/logout-icon.png") no-repeat;
   width: 24px;
   height: 24px;
+}
+
+.section-sep {
+  background: url("../img/blog/abstract-bg.png") no-repeat;
+  width: 2400px;
+  height: 462px;
 }
 
 .row {

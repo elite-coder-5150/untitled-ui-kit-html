@@ -229,6 +229,8 @@ section {
 
 .showcase {
   background: #FAF5FF;
+  text-align: center;
+  height: 390px;
 }
 
 .blog-post {
@@ -290,6 +292,17 @@ section {
 
 .blog-posts {
   margin-top: -475px;
+}
+
+.badge-purple {
+  background: #F5EBFF;
+  color: #6E3BCD;
+  text-transform: capitalize;
+  border: 1px solid #6E3BCD;
+  font-size: 14px;
+  padding: 2px 10px;
+  border-radius: 16px;
+  display: inline-flex;
 }
 
 * {

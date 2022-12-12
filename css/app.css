@@ -305,6 +305,29 @@ section {
   display: inline-flex;
 }
 
+.input-bg {
+  background: #fff;
+  display: inline-flex;
+  padding: 5px 30px;
+  width: 320px;
+  height: 48px;
+  box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+  margin-top: 40px;
+  border-radius: 8px;
+}
+.input-bg input {
+  border: none;
+  color: #647087;
+  font-size: 16px;
+  width: 100%;
+}
+.input-bg input:focus {
+  outline: none;
+}
+.input-bg input::-webkit-input-placeholder {
+  color: #647087;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -466,6 +489,13 @@ button:hover {
   background: url("../img/dropdown-menu/logout-icon.png") no-repeat;
   width: 24px;
   height: 24px;
+}
+.icon .search-icon {
+  background: url("../img/blog/search-icon.png") no-repeat;
+  width: 24px;
+  height: 24px;
+  margin-top: 9px;
+  margin-right: 10px;
 }
 
 .section-sep {

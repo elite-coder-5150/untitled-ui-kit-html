@@ -391,6 +391,7 @@ section {
   font-weight: 500;
   text-transform: capitalize;
   color: #8654E1;
+  font-size: 48px;
   margin-top: 96px;
 }
 
@@ -562,6 +563,11 @@ button:hover {
   height: 24px;
   margin-top: 9px;
   margin-right: 10px;
+}
+.icon .brackets-icon {
+  background: url("../img/icons/brackets.svg") no-repeat;
+  width: 24px;
+  height: 24px;
 }
 
 .section-sep {

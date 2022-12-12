@@ -386,6 +386,14 @@ section {
   margin-top: 3px;
 }
 
+.section-title {
+  text-align: center;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #8654E1;
+  margin-top: 96px;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;

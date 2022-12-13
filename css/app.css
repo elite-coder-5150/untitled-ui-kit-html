@@ -629,7 +629,6 @@ section {
 .customers .customers-table-card .customers-table .user-name {
   font-weight: 600;
   text-transform: capitalize;
-  margin-bottom: 6px;
 }
 .invoice .customers-table-card .customers-table .email,
 .customers .customers-table-card .customers-table .email {

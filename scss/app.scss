@@ -9,6 +9,7 @@
 @import "partials/blog";
 @import "partials/customers-table";
 @import "partials/team";
+@import "partials/table";
 
 * {
     box-sizing: border-box;
@@ -57,6 +58,7 @@ button {
 
 .icon {
     display: inline-flex;
+    float: left;
     .back-icon {
         background: url('../img/back-error-icon.png') no-repeat;
         width: 24px;
@@ -91,6 +93,7 @@ button {
         background: url('../img/catalog-icon.png') no-repeat;
         width: 48px;
         height: 48px;
+        margin-right: 8px;
     }
 
     .notion-icon {
@@ -204,6 +207,12 @@ button {
 
     .brackets-icon {
         background: url('../img/icons/brackets.svg') no-repeat;
+        width: 24px;
+        height: 24px;
+    }
+
+    .checkmark-icon {
+        background: url('../img/tables/check-mark-icon.svg') no-repeat;
         width: 24px;
         height: 24px;
     }

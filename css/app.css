@@ -515,6 +515,19 @@ a {
   text-decoration: none;
 }
 
+.status {
+  display: flex;
+}
+.status .paid {
+  color: #007C43;
+  padding: 6px 25px;
+  background: #E8FEF2;
+  border: 1px solid #007c43;
+  text-transform: capitalize;
+  margin-top: -15px;
+  border-radius: 16px;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -686,6 +699,11 @@ button:hover {
 }
 .icon .brackets-icon {
   background: url("../img/icons/brackets.svg") no-repeat;
+  width: 24px;
+  height: 24px;
+}
+.icon .checkmark-icon {
+  background: url("../img/tables/check-mark-icon.svg") no-repeat;
   width: 24px;
   height: 24px;
 }

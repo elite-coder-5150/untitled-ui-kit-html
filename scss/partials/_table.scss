@@ -1,13 +1,16 @@
-.invoice {
+.invoice,
+.customers {
     display: grid;
     justify-content: center;
     align-items: center;
+    padding-bottom: 60px;
 
     h1 {
         margin-bottom: 0px;
     }
 
-    .invoice-table-card {
+    .invoice-table-card,
+    .customer-table-card {
         box-shadow: $box-shadow;
         border-radius: 8px;
         border: 1px solid $clr-base-borde;
@@ -16,7 +19,8 @@
             padding: 24px;
         }
 
-        .invoice-table {
+        .invoice-table,
+        .customers-table {
             width: 100%;
             border-collapse: collapse;
 
@@ -38,6 +42,105 @@
             .user-name {
                 font-weight: 600;
                 text-transform: capitalize;
+            }
+
+            .email {
+                color: #445469;
+                margin-top: 3px;
+            }
+
+            th {
+                text-align: left;
+                background: #F9FAFB;
+                border-bottom: 1px solid $clr-base-borde;
+                border-top: 1px solid $clr-base-borde;
+                padding: 16px 24px;
+                font-size: 12px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                &:nth-child(1) {
+                    border-left: 0;
+                }
+
+
+
+                &:nth-child(6) {
+                    border-right: 1px solid $clr-base-borde;
+                }
+            }
+
+            td {
+                padding-left: 24px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-size: 14px;
+                border-bottom: 1px solid $clr-base-borde;
+                border-top: 1px solid $clr-base-borde;
+                border-right: 1px solid $clr-base-borde;
+
+                &:nth-child(1) {
+                    border-left: 0
+                }
+
+                &:nth-child(6) {
+                    border-right: 0;
+                }
+            }
+
+            tbody {
+                tr {
+                    td {
+                        padding: 10px 24px;
+                    }
+                }
+            }
+        }
+    }
+
+    .customers-table-card {
+        box-shadow: $box-shadow;
+        border-radius: 8px;
+        border: 1px solid $clr-base-borde;
+        width: 100%;
+        .card-header {
+            padding: 24px;
+        }
+
+        
+
+        .customers-table {
+            width: 100%;
+            border-collapse: collapse;
+
+            tr {
+                text-align: left;
+
+            }
+
+            tbody {
+                tr {
+                    td {
+                        padding: 15px 24px;
+
+                        
+                    }
+                }
+            }
+
+            input[type="checkbox"] {
+                margin-right: 6px;
+            }
+
+            .profile {
+                float: left;
+                margin-right: 10px;
+
+            }
+
+            .user-name {
+                font-weight: 600;
+                text-transform: capitalize;
+            
             }
 
             .email {
@@ -111,4 +214,18 @@
 
 a {
     text-decoration: none;
+}
+
+.status {
+    display: flex;
+    
+    .paid {
+        color: #007C43;
+        padding: 6px 25px;
+        background: #E8FEF2;
+        border: 1px solid #007c43;
+        text-transform: capitalize;
+        margin-top: -15px;
+        border-radius: 16px;
+    }
 }

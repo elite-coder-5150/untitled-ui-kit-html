@@ -337,7 +337,6 @@ section {
 }
 
 .customers-table-card {
-  width: 1216px;
   height: 641px;
   margin: 50px auto 0 auto;
   box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
@@ -421,45 +420,103 @@ section {
   text-transform: capitalize;
 }
 
-.invoice {
+.invoice,
+.customers {
   display: grid;
   justify-content: center;
   align-items: center;
+  padding-bottom: 60px;
 }
-.invoice h1 {
+.invoice h1,
+.customers h1 {
   margin-bottom: 0px;
 }
-.invoice .invoice-table-card {
+.invoice .invoice-table-card,
+.invoice .customer-table-card,
+.customers .invoice-table-card,
+.customers .customer-table-card {
   box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
   border-radius: 8px;
   border: 1px solid #CFD5DE;
 }
-.invoice .invoice-table-card .card-header {
+.invoice .invoice-table-card .card-header,
+.invoice .customer-table-card .card-header,
+.customers .invoice-table-card .card-header,
+.customers .customer-table-card .card-header {
   padding: 24px;
 }
-.invoice .invoice-table-card .invoice-table {
+.invoice .invoice-table-card .invoice-table,
+.invoice .invoice-table-card .customers-table,
+.invoice .customer-table-card .invoice-table,
+.invoice .customer-table-card .customers-table,
+.customers .invoice-table-card .invoice-table,
+.customers .invoice-table-card .customers-table,
+.customers .customer-table-card .invoice-table,
+.customers .customer-table-card .customers-table {
   width: 100%;
   border-collapse: collapse;
 }
-.invoice .invoice-table-card .invoice-table tr {
+.invoice .invoice-table-card .invoice-table tr,
+.invoice .invoice-table-card .customers-table tr,
+.invoice .customer-table-card .invoice-table tr,
+.invoice .customer-table-card .customers-table tr,
+.customers .invoice-table-card .invoice-table tr,
+.customers .invoice-table-card .customers-table tr,
+.customers .customer-table-card .invoice-table tr,
+.customers .customer-table-card .customers-table tr {
   text-align: left;
 }
-.invoice .invoice-table-card .invoice-table input[type=checkbox] {
+.invoice .invoice-table-card .invoice-table input[type=checkbox],
+.invoice .invoice-table-card .customers-table input[type=checkbox],
+.invoice .customer-table-card .invoice-table input[type=checkbox],
+.invoice .customer-table-card .customers-table input[type=checkbox],
+.customers .invoice-table-card .invoice-table input[type=checkbox],
+.customers .invoice-table-card .customers-table input[type=checkbox],
+.customers .customer-table-card .invoice-table input[type=checkbox],
+.customers .customer-table-card .customers-table input[type=checkbox] {
   margin-right: 6px;
 }
-.invoice .invoice-table-card .invoice-table .profile {
+.invoice .invoice-table-card .invoice-table .profile,
+.invoice .invoice-table-card .customers-table .profile,
+.invoice .customer-table-card .invoice-table .profile,
+.invoice .customer-table-card .customers-table .profile,
+.customers .invoice-table-card .invoice-table .profile,
+.customers .invoice-table-card .customers-table .profile,
+.customers .customer-table-card .invoice-table .profile,
+.customers .customer-table-card .customers-table .profile {
   float: left;
   margin-right: 10px;
 }
-.invoice .invoice-table-card .invoice-table .user-name {
+.invoice .invoice-table-card .invoice-table .user-name,
+.invoice .invoice-table-card .customers-table .user-name,
+.invoice .customer-table-card .invoice-table .user-name,
+.invoice .customer-table-card .customers-table .user-name,
+.customers .invoice-table-card .invoice-table .user-name,
+.customers .invoice-table-card .customers-table .user-name,
+.customers .customer-table-card .invoice-table .user-name,
+.customers .customer-table-card .customers-table .user-name {
   font-weight: 600;
   text-transform: capitalize;
 }
-.invoice .invoice-table-card .invoice-table .email {
+.invoice .invoice-table-card .invoice-table .email,
+.invoice .invoice-table-card .customers-table .email,
+.invoice .customer-table-card .invoice-table .email,
+.invoice .customer-table-card .customers-table .email,
+.customers .invoice-table-card .invoice-table .email,
+.customers .invoice-table-card .customers-table .email,
+.customers .customer-table-card .invoice-table .email,
+.customers .customer-table-card .customers-table .email {
   color: #445469;
   margin-top: 3px;
 }
-.invoice .invoice-table-card .invoice-table th {
+.invoice .invoice-table-card .invoice-table th,
+.invoice .invoice-table-card .customers-table th,
+.invoice .customer-table-card .invoice-table th,
+.invoice .customer-table-card .customers-table th,
+.customers .invoice-table-card .invoice-table th,
+.customers .invoice-table-card .customers-table th,
+.customers .customer-table-card .invoice-table th,
+.customers .customer-table-card .customers-table th {
   text-align: left;
   background: #F9FAFB;
   border-bottom: 1px solid #CFD5DE;
@@ -469,13 +526,34 @@ section {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-.invoice .invoice-table-card .invoice-table th:nth-child(1) {
+.invoice .invoice-table-card .invoice-table th:nth-child(1),
+.invoice .invoice-table-card .customers-table th:nth-child(1),
+.invoice .customer-table-card .invoice-table th:nth-child(1),
+.invoice .customer-table-card .customers-table th:nth-child(1),
+.customers .invoice-table-card .invoice-table th:nth-child(1),
+.customers .invoice-table-card .customers-table th:nth-child(1),
+.customers .customer-table-card .invoice-table th:nth-child(1),
+.customers .customer-table-card .customers-table th:nth-child(1) {
   border-left: 0;
 }
-.invoice .invoice-table-card .invoice-table th:nth-child(6) {
+.invoice .invoice-table-card .invoice-table th:nth-child(6),
+.invoice .invoice-table-card .customers-table th:nth-child(6),
+.invoice .customer-table-card .invoice-table th:nth-child(6),
+.invoice .customer-table-card .customers-table th:nth-child(6),
+.customers .invoice-table-card .invoice-table th:nth-child(6),
+.customers .invoice-table-card .customers-table th:nth-child(6),
+.customers .customer-table-card .invoice-table th:nth-child(6),
+.customers .customer-table-card .customers-table th:nth-child(6) {
   border-right: 1px solid #CFD5DE;
 }
-.invoice .invoice-table-card .invoice-table td {
+.invoice .invoice-table-card .invoice-table td,
+.invoice .invoice-table-card .customers-table td,
+.invoice .customer-table-card .invoice-table td,
+.invoice .customer-table-card .customers-table td,
+.customers .invoice-table-card .invoice-table td,
+.customers .invoice-table-card .customers-table td,
+.customers .customer-table-card .invoice-table td,
+.customers .customer-table-card .customers-table td {
   padding-left: 24px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -484,10 +562,115 @@ section {
   border-top: 1px solid #CFD5DE;
   border-right: 1px solid #CFD5DE;
 }
-.invoice .invoice-table-card .invoice-table td:nth-child(1) {
+.invoice .invoice-table-card .invoice-table td:nth-child(1),
+.invoice .invoice-table-card .customers-table td:nth-child(1),
+.invoice .customer-table-card .invoice-table td:nth-child(1),
+.invoice .customer-table-card .customers-table td:nth-child(1),
+.customers .invoice-table-card .invoice-table td:nth-child(1),
+.customers .invoice-table-card .customers-table td:nth-child(1),
+.customers .customer-table-card .invoice-table td:nth-child(1),
+.customers .customer-table-card .customers-table td:nth-child(1) {
   border-left: 0;
 }
-.invoice .invoice-table-card .invoice-table td:nth-child(6) {
+.invoice .invoice-table-card .invoice-table td:nth-child(6),
+.invoice .invoice-table-card .customers-table td:nth-child(6),
+.invoice .customer-table-card .invoice-table td:nth-child(6),
+.invoice .customer-table-card .customers-table td:nth-child(6),
+.customers .invoice-table-card .invoice-table td:nth-child(6),
+.customers .invoice-table-card .customers-table td:nth-child(6),
+.customers .customer-table-card .invoice-table td:nth-child(6),
+.customers .customer-table-card .customers-table td:nth-child(6) {
+  border-right: 0;
+}
+.invoice .invoice-table-card .invoice-table tbody tr td,
+.invoice .invoice-table-card .customers-table tbody tr td,
+.invoice .customer-table-card .invoice-table tbody tr td,
+.invoice .customer-table-card .customers-table tbody tr td,
+.customers .invoice-table-card .invoice-table tbody tr td,
+.customers .invoice-table-card .customers-table tbody tr td,
+.customers .customer-table-card .invoice-table tbody tr td,
+.customers .customer-table-card .customers-table tbody tr td {
+  padding: 10px 24px;
+}
+.invoice .customers-table-card,
+.customers .customers-table-card {
+  box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+  border-radius: 8px;
+  border: 1px solid #CFD5DE;
+  width: 100%;
+}
+.invoice .customers-table-card .card-header,
+.customers .customers-table-card .card-header {
+  padding: 24px;
+}
+.invoice .customers-table-card .customers-table,
+.customers .customers-table-card .customers-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.invoice .customers-table-card .customers-table tr,
+.customers .customers-table-card .customers-table tr {
+  text-align: left;
+}
+.invoice .customers-table-card .customers-table tbody tr td,
+.customers .customers-table-card .customers-table tbody tr td {
+  padding: 15px 24px;
+}
+.invoice .customers-table-card .customers-table input[type=checkbox],
+.customers .customers-table-card .customers-table input[type=checkbox] {
+  margin-right: 6px;
+}
+.invoice .customers-table-card .customers-table .profile,
+.customers .customers-table-card .customers-table .profile {
+  float: left;
+  margin-right: 10px;
+}
+.invoice .customers-table-card .customers-table .user-name,
+.customers .customers-table-card .customers-table .user-name {
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 6px;
+}
+.invoice .customers-table-card .customers-table .email,
+.customers .customers-table-card .customers-table .email {
+  color: #445469;
+  margin-top: 3px;
+}
+.invoice .customers-table-card .customers-table th,
+.customers .customers-table-card .customers-table th {
+  text-align: left;
+  background: #F9FAFB;
+  border-bottom: 1px solid #CFD5DE;
+  border-top: 1px solid #CFD5DE;
+  padding: 16px 24px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.invoice .customers-table-card .customers-table th:nth-child(1),
+.customers .customers-table-card .customers-table th:nth-child(1) {
+  border-left: 0;
+}
+.invoice .customers-table-card .customers-table th:nth-child(6),
+.customers .customers-table-card .customers-table th:nth-child(6) {
+  border-right: 1px solid #CFD5DE;
+}
+.invoice .customers-table-card .customers-table td,
+.customers .customers-table-card .customers-table td {
+  padding-left: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  border-bottom: 1px solid #CFD5DE;
+  border-top: 1px solid #CFD5DE;
+  border-right: 1px solid #CFD5DE;
+}
+.invoice .customers-table-card .customers-table td:nth-child(1),
+.customers .customers-table-card .customers-table td:nth-child(1) {
+  border-left: 0;
+}
+.invoice .customers-table-card .customers-table td:nth-child(6),
+.customers .customers-table-card .customers-table td:nth-child(6) {
   border-right: 0;
 }
 
@@ -574,6 +757,7 @@ button:hover {
 
 .icon {
   display: inline-flex;
+  float: left;
 }
 .icon .back-icon {
   background: url("../img/back-error-icon.png") no-repeat;
@@ -604,6 +788,7 @@ button:hover {
   background: url("../img/catalog-icon.png") no-repeat;
   width: 48px;
   height: 48px;
+  margin-right: 8px;
 }
 .icon .notion-icon {
   background: url("../img/icons/notion-icon.png") no-repeat;

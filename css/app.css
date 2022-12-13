@@ -421,6 +421,100 @@ section {
   text-transform: capitalize;
 }
 
+.invoice {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.invoice h1 {
+  margin-bottom: 0px;
+}
+.invoice .invoice-table-card {
+  box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+  border-radius: 8px;
+  border: 1px solid #CFD5DE;
+}
+.invoice .invoice-table-card .card-header {
+  padding: 24px;
+}
+.invoice .invoice-table-card .invoice-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.invoice .invoice-table-card .invoice-table tr {
+  text-align: left;
+}
+.invoice .invoice-table-card .invoice-table input[type=checkbox] {
+  margin-right: 6px;
+}
+.invoice .invoice-table-card .invoice-table .profile {
+  float: left;
+  margin-right: 10px;
+}
+.invoice .invoice-table-card .invoice-table .user-name {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.invoice .invoice-table-card .invoice-table .email {
+  color: #445469;
+  margin-top: 3px;
+}
+.invoice .invoice-table-card .invoice-table th {
+  text-align: left;
+  background: #F9FAFB;
+  border-bottom: 1px solid #CFD5DE;
+  border-top: 1px solid #CFD5DE;
+  padding: 16px 24px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.invoice .invoice-table-card .invoice-table th:nth-child(1) {
+  border-left: 0;
+}
+.invoice .invoice-table-card .invoice-table th:nth-child(6) {
+  border-right: 1px solid #CFD5DE;
+}
+.invoice .invoice-table-card .invoice-table td {
+  padding-left: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  border-bottom: 1px solid #CFD5DE;
+  border-top: 1px solid #CFD5DE;
+  border-right: 1px solid #CFD5DE;
+}
+.invoice .invoice-table-card .invoice-table td:nth-child(1) {
+  border-left: 0;
+}
+.invoice .invoice-table-card .invoice-table td:nth-child(6) {
+  border-right: 0;
+}
+
+.primary-text {
+  color: #8654E1;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.utility {
+  list-style: none;
+  display: flex;
+  column-gap: 8px;
+}
+.utility a {
+  text-transform: capitalize;
+  color: #445469;
+}
+.utility a.primary-text {
+  color: #8654E1;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;

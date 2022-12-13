@@ -1,0 +1,114 @@
+.invoice {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        margin-bottom: 0px;
+    }
+
+    .invoice-table-card {
+        box-shadow: $box-shadow;
+        border-radius: 8px;
+        border: 1px solid $clr-base-borde;
+
+        .card-header {
+            padding: 24px;
+        }
+
+        .invoice-table {
+            width: 100%;
+            border-collapse: collapse;
+
+            tr {
+                text-align: left;
+
+            }
+
+            input[type="checkbox"] {
+                margin-right: 6px;
+            }
+
+            .profile {
+                float: left;
+                margin-right: 10px;
+
+            }
+
+            .user-name {
+                font-weight: 600;
+                text-transform: capitalize;
+            }
+
+            .email {
+                color: #445469;
+                margin-top: 3px;
+            }
+
+            th {
+                text-align: left;
+                background: #F9FAFB;
+                border-bottom: 1px solid $clr-base-borde;
+                border-top: 1px solid $clr-base-borde;
+                padding: 16px 24px;
+                font-size: 12px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                &:nth-child(1) {
+                    border-left: 0;
+                }
+
+
+
+                &:nth-child(6) {
+                    border-right: 1px solid $clr-base-borde;
+                }
+            }
+
+            td {
+                padding-left: 24px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-size: 14px;
+                border-bottom: 1px solid $clr-base-borde;
+                border-top: 1px solid $clr-base-borde;
+                border-right: 1px solid $clr-base-borde;
+
+                &:nth-child(1) {
+                    border-left: 0
+                }
+
+                &:nth-child(6) {
+                    border-right: 0;
+                }
+            }
+        }
+    }
+}
+
+.primary-text {
+    color: $clr-primary;
+    font-weight: 500;
+    text-transform: capitalize;
+
+}
+
+.utility {
+    list-style: none;
+    display: flex;
+    column-gap: 8px;
+
+    a {
+        text-transform: capitalize;
+        color: #445469;
+
+        &.primary-text {
+            color: $clr-primary;
+            font-weight: 600;
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+}

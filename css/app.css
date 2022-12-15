@@ -734,14 +734,21 @@ body {
 }
 .overlay .modal-one .button-group {
   display: flex;
-  margin-top: 24px;
 }
 .overlay .modal-one .button-group button {
   text-transform: capitalize;
 }
 .overlay .modal-one .button-group .md-secondary,
 .overlay .modal-one .button-group .md-primary {
-  padding: 10px 24px;
+  padding: 16px 24px 10px 24px;
+}
+.overlay .modal-one .modal-title {
+  font-size: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.overlay .modal-one .modal-body .post-excerpt {
+  font-size: 14px;
 }
 
 * {

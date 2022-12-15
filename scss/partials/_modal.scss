@@ -8,7 +8,7 @@ body {
     height: 100vh; 
     background: #2B3645;
 
-    .modal {
+    .modal-one {
         width: 400px;
         background: #fff;
 
@@ -19,6 +19,31 @@ body {
         .modal-body,
         .modal-footer {
             padding: 24px;
+        }
+
+        .button-group {
+            display: flex;
+            // margin-top: 24px;
+
+            button {
+                text-transform: capitalize;
+            }
+            .md-secondary,
+            .md-primary {
+                padding: 16px 24px 10px 24px;
+            }
+        }
+
+        .modal-title {
+            font-size: 20px;
+            text-align: center;
+            text-transform: capitalize;
+        }
+
+        .modal-body {
+            .post-excerpt {
+                font-size: 14px;
+            }
         }
     }
 }

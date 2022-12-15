@@ -6,4 +6,19 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh; 
+    background: #2B3645;
+
+    .modal {
+        width: 400px;
+        background: #fff;
+
+        .modal-header {
+            padding: 24px 24px 0 24px;
+        }
+
+        .modal-body,
+        .modal-footer {
+            padding: 24px;
+        }
+    }
 }

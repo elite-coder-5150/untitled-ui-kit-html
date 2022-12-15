@@ -6,10 +6,12 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh; 
+    overflow: hidden;
     background: #2B3645;
 
     .modal-one {
         width: 400px;
+        // height: 420px;
         background: #fff;
         border-radius: 8px;
 
@@ -24,7 +26,7 @@ body {
 
         .button-group {
             display: flex;
-            // margin-top: 24px;
+            //margin-top: 24px;
 
             button {
                 text-transform: capitalize;
@@ -44,6 +46,10 @@ body {
         .modal-body {
             .post-excerpt {
                 font-size: 14px;
+                margin-top: 24px;
+                line-height: 1.5rem;
+
+                color: #445469;
             }
         }
     }

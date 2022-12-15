@@ -710,6 +710,17 @@ a {
   border-radius: 16px;
 }
 
+body {
+  height: 100vh;
+}
+
+.overlay {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;

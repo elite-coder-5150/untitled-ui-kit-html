@@ -719,6 +719,29 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background: #2B3645;
+}
+.overlay .modal-one {
+  width: 400px;
+  background: #fff;
+}
+.overlay .modal-one .modal-header {
+  padding: 24px 24px 0 24px;
+}
+.overlay .modal-one .modal-body,
+.overlay .modal-one .modal-footer {
+  padding: 24px;
+}
+.overlay .modal-one .button-group {
+  display: flex;
+  margin-top: 24px;
+}
+.overlay .modal-one .button-group button {
+  text-transform: capitalize;
+}
+.overlay .modal-one .button-group .md-secondary,
+.overlay .modal-one .button-group .md-primary {
+  padding: 10px 24px;
 }
 
 * {
@@ -899,6 +922,11 @@ button:hover {
 }
 .icon .checkmark-icon {
   background: url("../img/tables/check-mark-icon.svg") no-repeat;
+  width: 24px;
+  height: 24px;
+}
+.icon .copy-icon {
+  background: url("../img/modals/copy-icon.png") no-repeat;
   width: 24px;
   height: 24px;
 }

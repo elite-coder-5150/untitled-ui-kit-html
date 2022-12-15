@@ -719,11 +719,13 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  overflow: hidden;
   background: #2B3645;
 }
 .overlay .modal-one {
   width: 400px;
   background: #fff;
+  border-radius: 8px;
 }
 .overlay .modal-one .modal-header {
   padding: 24px 24px 0 24px;
@@ -749,6 +751,9 @@ body {
 }
 .overlay .modal-one .modal-body .post-excerpt {
   font-size: 14px;
+  margin-top: 24px;
+  line-height: 1.5rem;
+  color: #445469;
 }
 
 * {

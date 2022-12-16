@@ -801,6 +801,23 @@ body {
   display: flex;
   column-gap: 24px;
 }
+.overlay .modal-three {
+  background: #fff;
+  width: 400px;
+  height: 640px;
+}
+.overlay .modal-three .modal-title {
+  font-size: 18px;
+}
+.overlay .modal-three .modal-header {
+  display: flex;
+  padding: 24px;
+}
+.overlay .modal-three .modal-header .close-modal-icon {
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: -40px;
+}
 
 * {
   box-sizing: border-box;

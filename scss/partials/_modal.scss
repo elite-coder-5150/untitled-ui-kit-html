@@ -60,6 +60,12 @@ body {
         text-align: center;
         padding: 24px;
 
+        .modal-header {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
         label {
             display: block;
             margin-bottom: 6px;
@@ -71,12 +77,20 @@ body {
             width: 352px;
             height: 44px;
             border: 1px solid $clr-base-borde;
+            padding-left: 14px;
+            color: #0D1829;
+            font-size: 16px;;
+
+            &::-webkit-input-placeholder {
+                color: #0D1829;
+            }
         }
 
         .modal-title {
             font-size: 18px;
             text-align: center;
             text-transform: capitalize;
+            margin-bottom: 6px;
         }
 
         .supportive-text {
@@ -92,6 +106,31 @@ body {
         .btn-group {
             display: flex;
             column-gap: 24px;
+        }
+    }
+
+    .modal-three {
+        background: #fff;
+        width: 480px;
+        height: 640px;
+
+        .modal-title {
+            font-size: 18px;
+        }
+
+        .input-bg {
+            box-shadow: none;
+        }
+
+        .modal-header {
+            display: flex;
+            padding: 24px;
+
+            .close-modal-icon {
+                margin-top: 0;
+                margin-left: auto;
+                margin-right: -100px;
+            }
         }
     }
 }

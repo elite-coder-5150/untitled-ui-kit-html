@@ -755,6 +755,40 @@ body {
   line-height: 1.5rem;
   color: #445469;
 }
+.overlay .modal-two {
+  width: 400px;
+  background: #fff;
+  text-align: center;
+  padding: 24px;
+}
+.overlay .modal-two label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+.overlay .modal-two input {
+  margin-bottom: 20px;
+  width: 352px;
+  height: 44px;
+  border: 1px solid #CFD5DE;
+}
+.overlay .modal-two .modal-title {
+  font-size: 18px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.overlay .modal-two .supportive-text {
+  color: #445469;
+  font-size: 14px;
+}
+.overlay .modal-two form {
+  text-align: left;
+  margin-top: 20px;
+}
+.overlay .modal-two .btn-group {
+  display: flex;
+  column-gap: 24px;
+}
 
 * {
   box-sizing: border-box;
@@ -941,6 +975,19 @@ button:hover {
   background: url("../img/modals/copy-icon.png") no-repeat;
   width: 24px;
   height: 24px;
+}
+.icon .close-modal-icon {
+  background: url("../img/modals/close-icon.png") no-repeat;
+  width: 14px;
+  height: 14px;
+}
+.icon .close-modal-icon:hover {
+  cursor: pointer;
+}
+.icon .feature-icon {
+  background: url("../img/modals/feature-icon.png") no-repeat;
+  width: 56px;
+  height: 56px;
 }
 
 .section-sep {

@@ -53,4 +53,45 @@ body {
             }
         }
     }
+
+    .modal-two {
+        width: 400px;
+        background: #fff;
+        text-align: center;
+        padding: 24px;
+
+        label {
+            display: block;
+            margin-bottom: 6px;
+            font-size: 14px;
+        }
+
+        input {
+            margin-bottom: 20px;
+            width: 352px;
+            height: 44px;
+            border: 1px solid $clr-base-borde;
+        }
+
+        .modal-title {
+            font-size: 18px;
+            text-align: center;
+            text-transform: capitalize;
+        }
+
+        .supportive-text {
+            color: #445469;
+            font-size: 14px;
+        }
+
+        form {
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .btn-group {
+            display: flex;
+            column-gap: 24px;
+        }
+    }
 }

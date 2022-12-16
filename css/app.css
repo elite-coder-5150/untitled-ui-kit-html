@@ -761,6 +761,11 @@ body {
   text-align: center;
   padding: 24px;
 }
+.overlay .modal-two .modal-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .overlay .modal-two label {
   display: block;
   margin-bottom: 6px;
@@ -771,11 +776,18 @@ body {
   width: 352px;
   height: 44px;
   border: 1px solid #CFD5DE;
+  padding-left: 14px;
+  color: #0D1829;
+  font-size: 16px;
+}
+.overlay .modal-two input::-webkit-input-placeholder {
+  color: #0D1829;
 }
 .overlay .modal-two .modal-title {
   font-size: 18px;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 6px;
 }
 .overlay .modal-two .supportive-text {
   color: #445469;
@@ -980,6 +992,8 @@ button:hover {
   background: url("../img/modals/close-icon.png") no-repeat;
   width: 14px;
   height: 14px;
+  margin-left: auto;
+  margin-top: -70px;
 }
 .icon .close-modal-icon:hover {
   cursor: pointer;
@@ -988,6 +1002,7 @@ button:hover {
   background: url("../img/modals/feature-icon.png") no-repeat;
   width: 56px;
   height: 56px;
+  margin: 0 auto 24px auto;
 }
 
 .section-sep {

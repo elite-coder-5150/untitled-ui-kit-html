@@ -327,7 +327,7 @@ section {
   color: #8654E1;
 }
 .blog-post .post-info .post-body p {
-  margin-top: 8px;
+  margin-top: 20px;
   color: #445469;
   line-height: 1.5rem;
 }
@@ -390,6 +390,20 @@ section {
 }
 .input-bg input::-webkit-input-placeholder {
   color: #647087;
+}
+
+.lg-btn-group {
+  background: #F5EBFF;
+  border: 1px solid #6E3BCD;
+  padding: 10px 24px;
+  border-radius: 8px;
+}
+.lg-btn-group .load-more-posts-btn {
+  font-size: 16px;
+  color: #6E3BCD;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .ct {

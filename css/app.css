@@ -1091,6 +1091,7 @@ p.privacy-policy a.privacy-link {
 }
 .upgrade .right .price-table-card .card-footer {
   padding: 24px;
+  border-top: 1px solid #CFD5DE;
 }
 .upgrade .right .price-table-card .card-footer .huge-primary {
   width: 100%;

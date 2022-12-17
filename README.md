@@ -3,6 +3,6 @@
 Here is a list of all the components
 1. modals
 2. customer-table is no longer supported, use the tables with in the tables template.
-3. Banking template
+3. Banking template.
 
 ####

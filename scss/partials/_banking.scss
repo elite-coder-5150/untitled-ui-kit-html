@@ -1,5 +1,5 @@
 .newsletter {
-    
+
     h1 {
         color: #0D1829;
         text-align: left;
@@ -44,29 +44,33 @@ footer.main-footer-one {
         justify-content: center;
         margin-top: 40px;
         column-gap: 24px;
-        
+
         button {
             text-transform: capitalize;
         }
     }
 
-    
+
     .text {
         padding-left: 24px;
     }
+
     .col {
         width: 176px;
         text-align: left;
+
         .col-title {
             text-transform: capitalize;
             margin-bottom: 16px;
         }
+
         ul {
             margin: 0;
             padding: 0;
             list-style: none;
             text-transform: capitalize;
         }
+
         li {
             margin-bottom: 10px;
         }
@@ -102,6 +106,7 @@ p.privacy-policy {
     display: flex;
     width: 100%;
     background: #F9FAFB;
+    flex-direction: row;
 
     .supportive-text {
         text-align: left;
@@ -122,6 +127,7 @@ p.privacy-policy {
         font-size: 36px;
         text-align: left;
     }
+
     text-align: left;
 
     .left {
@@ -148,17 +154,17 @@ p.privacy-policy {
             }
         }
     }
+
     .right {
         .price-table-card {
             background: #fff;
             width: 576px;
-            height: 572px;
+            
             box-shadow: $box-shadow;
             border: 1px solid $clr-base-borde;
             border-radius: 8px;
             position: relative;
-
-            
+        
 
             .card-header {
                 display: flex;
@@ -206,12 +212,57 @@ p.privacy-policy {
                 }
             }
 
-            
+            .card-body {
+                background: #fff;
+                
+                padding: 24px;
+                
+               .features-list {
+                    width: 48%;
+                
+                    display: inline-flex;
+                    flex-direction: column;
+                    column-gap: 50px;
+                    li {
+                        height: 24px;
+                        margin-bottom: 20px;
+                        width: 100%;
+                        height: 24px;
+
+                        font-weight: normal;
+                        // opacity: 0.6;
+                        color: darken($clr-base-borde, 30%);
+
+                        text-transform: capitalize;
+                        font-size: 14px;
+                    } 
+               }
+                .plan-title {
+                    font-size: 14px;
+                    text-transform: uppercase;
+                }
+                .plan-desc {
+                    font-size: 14px;
+                    opacity: 0.6;
+                    margin-bottom: 30px;
+                }
+
+                
+            }
+
+            .card-footer {
+                padding: 24px;
+
+                .huge-primary {
+                    width: 100%;
+                    background: #8654E1;
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: bold;
+                    padding: 15px 0;
+                    border-radius: 8px;
+                }
+            }
         }
     }
-}
-
-.card-body {
-    background: green;
-    width: 100%;
 }

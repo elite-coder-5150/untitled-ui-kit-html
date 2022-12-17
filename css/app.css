@@ -83,7 +83,7 @@ button:hover {
 }
 
 .lg-primary {
-  padding: 18px 28px;
+  padding: 12px 28px;
   font-size: 18px;
   background: #8654E1;
   color: #fff;
@@ -886,6 +886,186 @@ body {
   margin-right: -100px;
 }
 
+.newsletter h1 {
+  color: #0D1829;
+  text-align: left;
+  font-size: 48px;
+}
+.newsletter .left,
+.newsletter .right {
+  width: 624px;
+  padding: 0;
+}
+.newsletter form {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 6px;
+}
+.newsletter form input {
+  width: 380px;
+  padding-left: 15px;
+  color: #647087;
+  border: 1px solid #CFD5DE;
+  font-size: 16px;
+}
+
+footer.main-footer-one {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+}
+footer.main-footer-one .btn-group {
+  display: flex;
+  margin-bottom: 64px;
+  justify-content: center;
+  margin-top: 40px;
+  column-gap: 24px;
+}
+footer.main-footer-one .btn-group button {
+  text-transform: capitalize;
+}
+footer.main-footer-one .text {
+  padding-left: 24px;
+}
+footer.main-footer-one .col {
+  width: 176px;
+  text-align: left;
+}
+footer.main-footer-one .col .col-title {
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+footer.main-footer-one .col ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-transform: capitalize;
+}
+footer.main-footer-one .col li {
+  margin-bottom: 10px;
+}
+footer.main-footer-one .col a {
+  color: #445469;
+}
+footer.main-footer-one .col .tag-new {
+  background: #E8FEF2;
+  display: inline-flex;
+  font-size: 14px;
+  color: #007C43;
+  font-weight: 500;
+  border: 1px solid #007C43;
+  padding: 2px 8px;
+  border-radius: 16px;
+  margin-left: 12px;
+}
+
+p.privacy-policy {
+  font-size: 14px;
+}
+p.privacy-policy a.privacy-link {
+  text-transform: capitalize;
+  color: #8654E1;
+}
+
+.upgrade {
+  display: flex;
+  width: 100%;
+  background: #F9FAFB;
+  text-align: left;
+}
+.upgrade .supportive-text {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+.upgrade .text {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.upgrade h1 {
+  padding: 0;
+  margin: 0;
+  color: #0D1829;
+  font-size: 36px;
+  text-align: left;
+}
+.upgrade .left {
+  width: 544px;
+}
+.upgrade .features-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.upgrade .features-list li {
+  height: 96px;
+  margin-bottom: 48px;
+}
+.upgrade .features-list li .feature-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.upgrade .features-list li .desc {
+  color: #445469;
+}
+.upgrade .right .price-table-card {
+  background: #fff;
+  width: 576px;
+  height: 572px;
+  box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+  border: 1px solid #CFD5DE;
+  border-radius: 8px;
+  position: relative;
+}
+.upgrade .right .price-table-card .card-header {
+  display: flex;
+  padding: 32px;
+  border-bottom: 1px solid #CFD5DE;
+  height: 128px;
+}
+.upgrade .right .price-table-card .card-header .left .plan-title {
+  font-size: 18px;
+  font-weight: 600;
+  display: inline-flex;
+}
+.upgrade .right .price-table-card .card-header .left .desc {
+  color: #445469;
+  margin-top: 6px;
+}
+.upgrade .right .price-table-card .card-header .left .badge-popular {
+  display: inline-flex;
+  background: #FAF5FF;
+  color: #703FCD;
+  border: 1px solid #703FCD;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 2px 10px;
+  border-radius: 16px;
+}
+.upgrade .right .price-table-card .card-header .right {
+  width: 200px;
+}
+.upgrade .right .price-table-card .card-header .right .price {
+  font-size: 40px;
+}
+.upgrade .right .price-table-card .card-header .right span.text {
+  position: relative;
+  top: -25px;
+  right: -75px;
+  font-size: 14px;
+}
+
+.card-body {
+  background: green;
+  width: 100%;
+}
+
 .icon {
   display: inline-flex;
   float: left;
@@ -1043,4 +1223,19 @@ body {
   width: 56px;
   height: 56px;
   margin: 0 auto 24px auto;
+}
+.icon .chat-icon {
+  background: url("../img/banking/feature-icon-one.png") no-repeat;
+  width: 56px;
+  height: 56px;
+}
+.icon .lightning-bolt-icon {
+  background: url("../img/banking/feature-icon-two.png") no-repeat;
+  width: 56px;
+  height: 56px;
+}
+.icon .manage-icon {
+  background: url("../img/banking/feature-icon-three.png") no-repeat;
+  width: 56px;
+  height: 56px;
 }

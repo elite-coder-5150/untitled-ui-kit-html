@@ -296,6 +296,9 @@ section {
   text-align: center;
   height: 390px;
 }
+.showcase.primary {
+  background: #6E3BCD;
+}
 
 .blog-post {
   width: 384px;
@@ -1115,6 +1118,10 @@ p.privacy-policy a.privacy-link {
   font-weight: bold;
   padding: 15px 0;
   border-radius: 8px;
+}
+
+.profile-card {
+  background: #fff;
 }
 
 .icon {

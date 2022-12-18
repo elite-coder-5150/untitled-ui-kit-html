@@ -1124,6 +1124,30 @@ p.privacy-policy a.privacy-link {
   background: #fff;
 }
 
+.drop-down {
+  margin-top: 50px;
+  margin-left: 50px;
+  /***** 
+      I need the design to code the rest of the ui comoents and i wont get 
+      a change til monday to do that 
+  *****/
+}
+.drop-down .profile-card {
+  width: 240px;
+  padding: 0px;
+  display: none;
+}
+.drop-down .avatar {
+  margin: 0;
+}
+.drop-down .info {
+  margin-right: 20px;
+}
+.drop-down .card-footer {
+  border-top: 1px solid #CFD5DE;
+  padding: 24px;
+}
+
 .icon {
   display: inline-flex;
   float: left;

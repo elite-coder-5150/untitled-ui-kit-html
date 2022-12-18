@@ -1,0 +1,30 @@
+.inputs {
+    width: 1440px;
+    margin: 50px auto 0 50px;
+    box-shadow: $box-shadow;
+    border: 1px solid $clr-base-borde;
+    padding-left: 24px;
+    padding-right: 24px;
+    gap: 24px;
+
+    .row {
+        column-gap: 30px;
+        padding: 0;
+    }
+}
+
+.info {
+    left: 55px;
+    position: absolute;
+    padding: 24px;
+}
+.input-one-bg {
+    border: 1px solid $clr-base-borde;
+    height: 44px;
+    width: calc(100% - 24px);
+    padding-left: 14px;
+
+    &:nth-child(3) {
+        margin-right: 24px;
+    }
+}

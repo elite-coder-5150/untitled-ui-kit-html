@@ -1,0 +1,28 @@
+.drop-down {
+    margin-top: 50px;
+    margin-left: 50px;
+    
+    
+    /***** 
+        I need the design to code the rest of the ui comoents and i wont get 
+        a change til monday to do that 
+    *****/
+    .profile-card {
+        width: 240px;
+        padding: 0px;
+        display: none;
+    }
+
+    .avatar {
+        margin: 0
+    }
+
+    .info {
+        margin-right: 20px;
+    }
+
+    .card-footer {
+        border-top: 1px solid $clr-base-borde;
+        padding: 24px;
+    }
+}

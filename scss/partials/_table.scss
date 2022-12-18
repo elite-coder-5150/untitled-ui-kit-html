@@ -45,24 +45,23 @@
             }
 
             .email {
-                color: #445469;
+                color: $clr-supportive-text;
                 margin-top: 3px;
             }
 
             th {
                 text-align: left;
-                background: #F9FAFB;
+                background: $clr-th-bg;
                 border-bottom: 1px solid $clr-base-borde;
                 border-top: 1px solid $clr-base-borde;
                 padding: 16px 24px;
                 font-size: 12px;
                 text-transform: uppercase;
                 letter-spacing: 1px;
+
                 &:nth-child(1) {
                     border-left: 0;
                 }
-
-
 
                 &:nth-child(6) {
                     border-right: 1px solid $clr-base-borde;
@@ -144,24 +143,23 @@
             }
 
             .email {
-                color: #445469;
+                color: $clr-supportive-text;
                 margin-top: 3px;
             }
 
             th {
                 text-align: left;
-                background: #F9FAFB;
+                background: $clr-th-bg;
                 border-bottom: 1px solid $clr-base-borde;
                 border-top: 1px solid $clr-base-borde;
                 padding: 16px 24px;
                 font-size: 12px;
                 text-transform: uppercase;
                 letter-spacing: 1px;
+                
                 &:nth-child(1) {
                     border-left: 0;
                 }
-
-
 
                 &:nth-child(6) {
                     border-right: 1px solid $clr-base-borde;
@@ -203,7 +201,7 @@
 
     a {
         text-transform: capitalize;
-        color: #445469;
+        color: $clr-utility-link-text;
 
         &.primary-text {
             color: $clr-primary;
@@ -220,10 +218,10 @@ a {
     display: flex;
     
     .paid {
-        color: #007C43;
+        color: $clr-paid-badge-text;
         padding: 6px 25px;
-        background: #E8FEF2;
-        border: 1px solid #007c43;
+        background: $clr-paid-badge-bg;
+        border: 1px solid $clr-paid-badge-border;
         text-transform: capitalize;
         margin-top: -15px;
         border-radius: 16px;

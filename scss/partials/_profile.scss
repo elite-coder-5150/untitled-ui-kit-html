@@ -37,7 +37,7 @@
 
         .email {
             font-size: 14px;
-            color: #445469;
+            color: $clr-email-text;
             margin-top: 6px;
         }
     }
@@ -83,18 +83,18 @@
             .position {
                 font-size: 14px;
                 font-weight: 500;
-                color: #314056;
+                color: $clr-position-text;
             }
 
             .company-name {
                 font-size: 14px;
-                color: #445469;
+                color: $clr-company-name-text;
                 text-transform: capitalize;
             }
 
             .date {
                 font-size: 14px;
-                color: #445469;
+                color: $clr-supportive-text;
                 margin-top: 20px;
             }
         }

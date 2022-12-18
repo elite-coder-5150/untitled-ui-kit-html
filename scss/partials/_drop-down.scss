@@ -1,16 +1,13 @@
 .drop-down {
-    margin-top: 50px;
-    margin-left: 50px;
-    
-    
+   
     /***** 
         I need the design to code the rest of the ui comoents and i wont get 
         a change til monday to do that 
+        . to solve this issue i need to write more javascript
     *****/
     .profile-card {
         width: 240px;
         padding: 0px;
-        display: none;
     }
 
     .avatar {
@@ -25,4 +22,14 @@
         border-top: 1px solid $clr-base-borde;
         padding: 24px;
     }
+
+    .md-secondary {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
 }
+
+.show {
+    display: flex;
+}
+

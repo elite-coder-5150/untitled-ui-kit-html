@@ -9,14 +9,14 @@ section {
     height: 390px;
 
     &.primary {
-        background: #6E3BCD;
+        background: $clr-primary;
     }
 }
 .blog-post {
     width: 384px;
-    background: #fff;
+    background: $clr-light-bg;
 
-    box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+    box-shadow: $box-shadow;
 
     .featured-img {
         padding: 24px 24px 0 24px;
@@ -39,7 +39,7 @@ section {
             font-size: 24px;
             margin-bottom: 8;
             line-height: 1.5rem;
-            color: #0D1829;
+            color: $clr-dark-link;
             text-transform: capitalize;
             
             &:hover {
@@ -50,7 +50,7 @@ section {
         .post-body {
             p {
                 margin-top: 20px;
-                color: #445469;
+                color: $clr-body-copy;
                 line-height: 1.5rem;
             }
         }
@@ -72,13 +72,13 @@ section {
 
         .author-name {
             text-transform: capitalize;
-            color: #0D1829;
+            color: $clr-author-name-text;
             font-weight: 500;
         }
 
         .post-date {
             font-size: 14px;
-            color: #445469;
+            color: $clr-post-date;
             margin-top: 3px;
         }
     }
@@ -89,10 +89,10 @@ section {
 }
 
 .badge-purple {
-    background: #F5EBFF;
-    color: #6E3BCD;
+    background: $clr-badge-purple-bg;
+    color: $clr-badge-purple-text;
     text-transform: capitalize;
-    border: 1px solid #6E3BCD;
+    border: 1px solid $clr-badge-purple-border;
     font-size: 14px;
     padding: 2px 10px;
     border-radius: 16px;
@@ -100,7 +100,7 @@ section {
 }
 
 .input-bg {
-    background: #fff;
+    background: $clr-light-bg;
     display: inline-flex;
     padding: 5px 30px;
     width: 320px;
@@ -111,7 +111,7 @@ section {
 
     input {
         border: none;
-        color: #647087;
+        color: $clr-input-text;
         font-size: 16px;
         width: 100%;
 
@@ -120,20 +120,20 @@ section {
         }
 
         &::-webkit-input-placeholder {
-            color: #647087;
+            color: $clr-input-text;
         }
     }
 }
 
 .lg-btn-group {
     background: #F5EBFF;
-    border: 1px solid #6E3BCD;
+    border: 1px solid $clr-lg-btn-group-border;
     padding: 10px 24px;
     border-radius: 8px;
 
     .load-more-posts-btn {
         font-size: 16px;
-        color: #6E3BCD;
+        color: $clr-primary;
         text-transform: capitalize;
         font-weight: 600;
         letter-spacing: 1px;

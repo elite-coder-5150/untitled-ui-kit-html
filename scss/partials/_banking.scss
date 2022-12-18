@@ -1,7 +1,7 @@
 .newsletter {
 
     h1 {
-        color: #0D1829;
+        color: $clr-heading-text;
         text-align: left;
         font-size: 48px;
     }
@@ -25,7 +25,7 @@
         input {
             width: 380px;
             padding-left: 15px;
-            color: #647087;
+            color: $clr-input-text;
             border: 1px solid $clr-base-borde;
             font-size: 16px;
         }
@@ -80,12 +80,12 @@ footer.main-footer-one {
         }
 
         .tag-new {
-            background: #E8FEF2;
+            background: $clr-new-tag-bg;
             display: inline-flex;
             font-size: 14px;
             color: #007C43;
             font-weight: 500;
-            border: 1px solid #007C43;
+            border: 1px solid $clr-tag-border;
             padding: 2px 8px;
             border-radius: 16px;
             margin-left: 12px;
@@ -105,7 +105,7 @@ p.privacy-policy {
 .upgrade {
     display: flex;
     width: 100%;
-    background: #F9FAFB;
+    background: $clr-upgrade-bg;
     flex-direction: row;
 
     .supportive-text {
@@ -123,7 +123,7 @@ p.privacy-policy {
     h1 {
         padding: 0;
         margin: 0;
-        color: #0D1829;
+        color: $clr-heading-text;
         font-size: 36px;
         text-align: left;
     }
@@ -150,14 +150,14 @@ p.privacy-policy {
             }
 
             .desc {
-                color: #445469;
+                color: $clr-desc-text;
             }
         }
     }
 
     .right {
         .price-table-card {
-            background: #fff;
+            background: $clr-light-bg;
             width: 576px;
             
             box-shadow: $box-shadow;
@@ -180,15 +180,15 @@ p.privacy-policy {
                     }
 
                     .desc {
-                        color: #445469;
+                        color: $clr-desc-text;
                         margin-top: 6px;
                     }
 
                     .badge-popular {
                         display: inline-flex;
-                        background: #FAF5FF;
-                        color: #703FCD;
-                        border: 1px solid #703FCD;
+                        background: $clr-popular-badge-bg;
+                        color: $clr-popular-badge-text;
+                        border: 1px solid $clr-popular-badge-border;
                         font-weight: 500;
                         text-transform: capitalize;
                         padding: 2px 10px;
@@ -213,7 +213,7 @@ p.privacy-policy {
             }
 
             .card-body {
-                background: #fff;
+                background: $clr-light-bg;
                 
                 padding: 24px;
                 
@@ -253,11 +253,11 @@ p.privacy-policy {
             .card-footer {
                 padding: 24px;
                 border-top: 1px solid $clr-base-borde;
-                
+
                 .huge-primary {
                     width: 100%;
-                    background: #8654E1;
-                    color: #fff;
+                    background: $clr-primary;
+                    color: $clr-light-text;
                     font-size: 18px;
                     font-weight: bold;
                     padding: 15px 0;

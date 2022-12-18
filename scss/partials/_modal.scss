@@ -7,12 +7,12 @@ body {
     align-items: center;
     height: 100vh; 
     overflow: hidden;
-    background: #2B3645;
+    background: $clr-overlay-bg;
 
     .modal-one {
         width: 400px;
         // height: 420px;
-        background: #fff;
+        background: $clr-light-bg;
         border-radius: 8px;
 
         .modal-header {
@@ -49,14 +49,14 @@ body {
                 margin-top: 24px;
                 line-height: 1.5rem;
 
-                color: #445469;
+                color: $clr-post-excerpt-text;
             }
         }
     }
 
     .modal-two {
         width: 400px;
-        background: #fff;
+        background: $clr-light-bg;
         text-align: center;
         padding: 24px;
 
@@ -78,11 +78,11 @@ body {
             height: 44px;
             border: 1px solid $clr-base-borde;
             padding-left: 14px;
-            color: #0D1829;
+            color: $clr-input-text;
             font-size: 16px;;
 
             &::-webkit-input-placeholder {
-                color: #0D1829;
+                color: $clr-input-text;
             }
         }
 
@@ -94,7 +94,7 @@ body {
         }
 
         .supportive-text {
-            color: #445469;
+            color: $clr-supportive-text;
             font-size: 14px;
         }
 
@@ -110,7 +110,7 @@ body {
     }
 
     .modal-three {
-        background: #fff;
+        background: $clr-light-bg;
         width: 480px;
         height: 640px;
 

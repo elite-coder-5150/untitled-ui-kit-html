@@ -14,7 +14,7 @@
 
 body {
     font-family: $base-font-family;
-    background: #fff;
+    background: $clr-light-bg;
     width: 1680px;
     height: 100vh;
     overflow-x: hidden;
@@ -32,7 +32,7 @@ body {
 
 .large-text {
     font-size: 20px;
-    color: #445469;
+    color: $clr-heading-text;
     margin-top: 24px;
 }
 

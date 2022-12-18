@@ -56,9 +56,9 @@ button {
 .row {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    
+    width: calc(100% - 24px);
     margin-bottom: 48px;
 
     .box {

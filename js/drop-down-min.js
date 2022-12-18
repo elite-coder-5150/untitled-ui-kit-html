@@ -1,0 +1,1 @@
+const accountBtn=document.querySelector(".md-secondary"),profileCard=document.querySelector(".profile-card"),toggleClass=e=>{e&&profileCard.classList.add("show")};toggleClass(),accountBtn.addEventListener("click",(()=>{profileCard.style.display="flex"}));

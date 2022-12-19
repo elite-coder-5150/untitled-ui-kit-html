@@ -1,8 +1,7 @@
-@function px-to-rem($px, $value: 16px) {
-  @return ($px / $value) * 1rem;
+@function px-to-rem($px, $value: 16) {
+    $result: calc($px / $value) * 1rem;
+    @return $result;
 }
-
-
 
 @mixin mobile {
     @media(width <= #{$mobile-width}) {

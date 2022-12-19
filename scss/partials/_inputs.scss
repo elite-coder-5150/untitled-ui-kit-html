@@ -22,11 +22,11 @@
 }
 .input-bg {
     border: 1px solid $clr-base-borde;
-    height: 44px;
+    height: 24px;
     width: calc(100% - px-to-rem(24));
     padding-left: px-to-rem(14);
-    border-radius: 22px;
-    box-shadow: $box-shadow;
+    border-radius: 6px;
+
     /***** 
      *      I think tomorrow when i got to the library I want to code the inputs
      *      and there are 192 variants in one section 
@@ -43,12 +43,11 @@
 }
 
 .info {
-    margin-bottom: 30px;
-
     .desc {
         margin-top: 6px;
         color: lighten(#666666, 15%);
         margin-bottom: -20px;
+       
         &::first-letter {
             text-transform: capitalize;
         }

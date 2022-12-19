@@ -1,26 +1,20 @@
-const accountBtn = document.querySelector('.md-secondary')
-const dropDown = document.querySelector('.drop-down');
-const profileCard = document.querySelector('.profile-card')
-const toggleClass = () => {
-    if (profileCard.classList.contains('show')) {
-        profileCard.classList.remove("show")
-    } else {
-        profileCard.classList.add("show");
-    }
+
+
+
+const button = /*html*/`
+    <button onclick='toggleDropdown()'>testign</button>
+    <div id="my-div">
+        this is a div element
+    </div>
+`;
+
+const body = document.getElementByTagName('body');
+body.append(button);
+// TODO: I may have to refacter the user inordef to work properly
+
+const toggleDropdown = () => {
+    let elem = document.querySelector('.drop-down');
+    elem.classList.toggle('show');
 }
 
-toggleClass();
-
-const addClass = (cls) => {
-    if (cls) {
-        this.classList.add(cls)
-    } else {
-        this.classList.remove(cls);
-    }
-}
-profileCard.addClass('show');
-accountBtn.addEventListener('click', () => {
-    dropDown.addClass('show');
-    
-});
-
+toggleDropdown();

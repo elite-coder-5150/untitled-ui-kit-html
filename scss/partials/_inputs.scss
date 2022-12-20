@@ -7,7 +7,7 @@
     border: 1px solid $clr-base-borde;
     padding: 48px 24px 24px 24px;
     gap: 24px;
-
+    position: relative;
     .row {
         column-gap: 30px;
         padding: 0;
@@ -20,21 +20,26 @@
     margin-left: 24px;
     padding: 24px;
 }
+
 .input-bg {
     border: 1px solid $clr-base-borde;
-    height: 24px;
+    height: 40px;
     width: calc(100% - px-to-rem(24));
     padding-left: px-to-rem(14);
     border-radius: 6px;
-
-    /***** 
-     *      I think tomorrow when i got to the library I want to code the inputs
-     *      and there are 192 variants in one section 
-     *****/
+    position: relative;
+    
 
     input {
-        border: none;
+        width: 272px;
+        height: 24px;
+
+        margin-top: 3px;
+
+        font-size: 16px;
+        color: #647087;
     }
+   
     &:nth-child(4) {
         margin-right: 24px;
     }

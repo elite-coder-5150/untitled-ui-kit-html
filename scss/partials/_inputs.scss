@@ -29,7 +29,24 @@
     border-radius: 6px;
     position: relative;
     
+    max-width: 400px;
+    
+    span {
+        font-size: 14px;
+        line-height: 30px;
+        color: $clr-input-text;
 
+        border-right: 1px solid $clr-base-borde;
+        padding-right: 10px;
+        margin-right: 14px;
+    }
+
+    &:nth-child(4) {
+        input {
+            padding-left: 14px;
+        }
+    }
+    
     input {
         width: 360px;
         height: 24px;
@@ -38,6 +55,8 @@
 
         font-size: 16px;
         color: #647087;
+
+        
     }
    
     &:nth-child(3) {

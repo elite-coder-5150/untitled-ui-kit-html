@@ -5,14 +5,6 @@
   margin: 0;
 }
 
-.supportive-text {
-  color: #8654E1;
-  margin-bottom: 6px;
-  font-weight: 500;
-  text-align: center;
-  text-transform: capitalize;
-}
-
 body {
   font-family: "Inter", sans-serif;
   background: #fff;
@@ -1121,6 +1113,55 @@ p.privacy-policy a.privacy-link {
   border-radius: 8px;
 }
 
+.cta {
+  background: #8654E1;
+  display: flex;
+  text-align: center;
+  color: #fff;
+}
+.cta .text {
+  margin: 0;
+  padding: 0;
+}
+.cta .section-title {
+  color: #fff;
+}
+.cta .btn-group {
+  display: flex;
+  flex-direction: row;
+}
+.cta .lg-primary {
+  background: #8654E1;
+}
+
+.features {
+  padding-top: 0;
+  padding-bottom: 96px;
+  display: flex;
+  flex-direction: row;
+}
+.features .title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.features p {
+  width: 32rem;
+  margin-left: 0px;
+}
+.features .list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding-left: 10px;
+  margin-top: 32px;
+}
+.features .list li {
+  width: 100%;
+  font-size: 16px;
+  color: #445469;
+}
+
 .profile-card {
   background: #fff;
 }
@@ -1455,4 +1496,16 @@ p.privacy-policy a.privacy-link {
   height: 24px;
   margin-top: 4px;
   margin-right: 6px;
+}
+.icon .inbox-icon {
+  background: url("../img/banking/featured-icon-one.svg") no-repeat;
+  width: 56px;
+  height: 56px;
+  margin-right: 20px;
+}
+.icon .check-mark-icon {
+  background: url("../img/banking/check-icon.svg") no-repeat;
+  width: 28px;
+  height: 28px;
+  margin-right: 12px;
 }

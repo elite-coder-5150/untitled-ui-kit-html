@@ -1238,15 +1238,27 @@ p.privacy-policy a.privacy-link {
   padding-left: 0.875rem;
   border-radius: 6px;
   position: relative;
+  max-width: 400px;
+}
+.input-bg span {
+  font-size: 14px;
+  line-height: 30px;
+  color: #647087;
+  border-right: 1px solid #CFD5DE;
+  padding-right: 10px;
+  margin-right: 14px;
+}
+.input-bg:nth-child(4) input {
+  padding-left: 14px;
 }
 .input-bg input {
-  width: 272px;
+  width: 360px;
   height: 24px;
   margin-top: 3px;
   font-size: 16px;
   color: #647087;
 }
-.input-bg:nth-child(4) {
+.input-bg:nth-child(3) {
   margin-right: 24px;
 }
 
@@ -1509,4 +1521,11 @@ p.privacy-policy a.privacy-link {
   width: 28px;
   height: 28px;
   margin-right: 12px;
+}
+.icon .master-card-icon {
+  background: url("../img/inputs/master-card-icon.svg") no-repeat;
+  width: 34px;
+  height: 24px;
+  margin-top: 3px;
+  margin-right: 10px;
 }

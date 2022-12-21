@@ -922,57 +922,6 @@ body {
   font-size: 16px;
 }
 
-footer.main-footer-one {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  text-align: center;
-}
-footer.main-footer-one .btn-group {
-  display: flex;
-  margin-bottom: 64px;
-  justify-content: center;
-  margin-top: 40px;
-  column-gap: 24px;
-}
-footer.main-footer-one .btn-group button {
-  text-transform: capitalize;
-}
-footer.main-footer-one .text {
-  padding-left: 24px;
-}
-footer.main-footer-one .col {
-  width: 176px;
-  text-align: left;
-}
-footer.main-footer-one .col .col-title {
-  text-transform: capitalize;
-  margin-bottom: 16px;
-}
-footer.main-footer-one .col ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-transform: capitalize;
-}
-footer.main-footer-one .col li {
-  margin-bottom: 10px;
-}
-footer.main-footer-one .col a {
-  color: #445469;
-}
-footer.main-footer-one .col .tag-new {
-  background: #e8fef2;
-  display: inline-flex;
-  font-size: 14px;
-  color: #007C43;
-  font-weight: 500;
-  border: 1px solid #007c43;
-  padding: 2px 8px;
-  border-radius: 16px;
-  margin-left: 12px;
-}
-
 p.privacy-policy {
   font-size: 14px;
 }
@@ -1040,9 +989,20 @@ p.privacy-policy a.privacy-link {
   height: 128px;
 }
 .upgrade .right .price-table-card .card-header .left .plan-title {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 600;
   display: inline-flex;
+}
+.upgrade .right .price-table-card .card-header .left .popular-tag {
+  display: inline-flex;
+  color: #8654E1;
+  font-weight: 600;
+  background: #FAF5FF;
+  border: 1px solid #8654E1;
+  padding: 2px 10px;
+  border-radius: 16px;
+  margin-left: 15px;
+  margin-top: -5px;
 }
 .upgrade .right .price-table-card .card-header .left .desc {
   color: #445469;
@@ -1093,6 +1053,7 @@ p.privacy-policy a.privacy-link {
 .upgrade .right .price-table-card .card-body .plan-title {
   font-size: 14px;
   text-transform: uppercase;
+  margin-bottom: 6px;
 }
 .upgrade .right .price-table-card .card-body .plan-desc {
   font-size: 14px;
@@ -1161,6 +1122,58 @@ p.privacy-policy a.privacy-link {
   width: 100%;
   font-size: 16px;
   color: #445469;
+  margin-bottom: 20px;
+}
+
+footer.main-footer-one {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+}
+footer.main-footer-one .btn-group {
+  display: flex;
+  margin-bottom: 64px;
+  justify-content: center;
+  margin-top: 40px;
+  column-gap: 24px;
+}
+footer.main-footer-one .btn-group button {
+  text-transform: capitalize;
+}
+footer.main-footer-one .text {
+  padding-left: 24px;
+}
+footer.main-footer-one .col {
+  width: 176px;
+  text-align: left;
+}
+footer.main-footer-one .col .col-title {
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+footer.main-footer-one .col ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-transform: capitalize;
+}
+footer.main-footer-one .col li {
+  margin-bottom: 10px;
+}
+footer.main-footer-one .col a {
+  color: #445469;
+}
+footer.main-footer-one .col .tag-new {
+  background: #e8fef2;
+  display: inline-flex;
+  font-size: 14px;
+  color: #007C43;
+  font-weight: 500;
+  border: 1px solid #007c43;
+  padding: 2px 8px;
+  border-radius: 16px;
+  margin-left: 12px;
 }
 
 .profile-card {

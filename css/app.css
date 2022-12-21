@@ -1121,6 +1121,45 @@ footer.main-footer-one .col .tag-new {
   height: 640px;
 }
 
+.paginator {
+  background: #fff;
+  box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #CFD5DE;
+}
+.paginator ul {
+  display: flex;
+  list-style: none;
+}
+.paginator ul a {
+  text-decoration: none;
+  color: #0d1829;
+}
+.paginator ul li.current {
+  background: #8654E1;
+}
+.paginator .pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 24px;
+  margin: 0;
+  list-style: none;
+}
+.paginator .pagination li {
+  margin: 0 8px;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #0d1829;
+  cursor: pointer;
+}
+.paginator .pagination li:hover {
+  color: #8654E1;
+}
+
 .icon {
   display: inline-flex;
   float: left;

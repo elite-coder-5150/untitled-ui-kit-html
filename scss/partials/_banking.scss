@@ -255,7 +255,7 @@ p.privacy-policy {
     display: flex;
     flex-direction: row;
 
-    
+    column-gap: 40px;
     .title {
         font-size: 30px;
         font-weight: 600;
@@ -283,6 +283,13 @@ p.privacy-policy {
             color: #445469;
             margin-bottom: 20px;
         }
+    }
+    .text-left {
+        padding-left: 50px;
+    }
+
+    .right-text {
+       padding-right: 250px;
     }
 }
 

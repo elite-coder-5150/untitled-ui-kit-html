@@ -1002,6 +1002,7 @@ p.privacy-policy a.privacy-link {
   padding: 2px 10px;
   border-radius: 16px;
   margin-left: 15px;
+  font-size: 14px;
   margin-top: -5px;
 }
 .upgrade .right .price-table-card .card-header .left .desc {

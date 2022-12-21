@@ -1,229 +1,95 @@
-.invoice,
-.customers {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 60px;
+.table-card {
+    box-shadow: $box-shadow;
 
-    h1 {
-        margin-bottom: 0px;
+    .table-card-header {
+        padding: 24px;
     }
 
-    .invoice-table-card,
-    .customer-table-card {
-        box-shadow: $box-shadow;
-        border-radius: 8px;
-        border: 1px solid $clr-base-borde;
+    .invoice-table  {
+        width: 100%;
+        border-collapse: collapse;
 
-        .card-header {
-            padding: 24px;
+        input {
+            margin-right: 10px;
         }
+        th {
+            width: 176px;
+            text-align: left;
+            background: #F9FAFB;
+            padding: 12px 24px;
+            font-size: 14px;
 
-        .invoice-table,
-        .customers-table {
-            width: 100%;
-            border-collapse: collapse;
-
-            tr {
-                text-align: left;
-
+            border: {
+                top: 1px solid $clr-base-borde;
+                bottom: 1px solid $clr-base-borde;
             }
 
-            input[type="checkbox"] {
-                margin-right: 6px;
+            &:nth-child(4) {
+                width: 337px;
+            }
+
+            &:nth-child(5) {
+                width: 220px;
+            }
+        }
+
+        tbody {
+            .profile {
+                margin-right: 12px;
+            }
+            td {
+                padding: 12px 24px;
+                font-size: 14px
             }
 
             .profile {
                 float: left;
-                margin-right: 10px;
-
             }
 
-            .user-name {
-                font-weight: 600;
+            .links {
+                display: flex;
+                list-style: none;
+                column-gap: 30px;
+            }
+
+
+            a {
+                color: #445469;
+                text-decoration: none;
                 text-transform: capitalize;
-            }
+                font-weight: 600;
 
-            .email {
-                color: $clr-supportive-text;
-                margin-top: 3px;
-            }
-
-            th {
-                text-align: left;
-                background: $clr-th-bg;
-                border-bottom: 1px solid $clr-base-borde;
-                border-top: 1px solid $clr-base-borde;
-                padding: 16px 24px;
-                font-size: 12px;
-                text-transform: uppercase;
-                letter-spacing: 1px;
-
-                &:nth-child(1) {
-                    border-left: 0;
+                &.primary {
+                    color: $clr-primary;
                 }
+            } 
 
-                &:nth-child(6) {
-                    border-right: 1px solid $clr-base-borde;
-                }
-            }
+            td.pagination-container {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                .pagination {
+                    display: flex;
+                    
+                   flex-direction: row;
 
-            td {
-                padding-left: 24px;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                font-size: 14px;
-                border-bottom: 1px solid $clr-base-borde;
-                border-top: 1px solid $clr-base-borde;
-                border-right: 1px solid $clr-base-borde;
-
-                &:nth-child(1) {
-                    border-left: 0
-                }
-
-                &:nth-child(6) {
-                    border-right: 0;
-                }
-            }
-
-            tbody {
-                tr {
-                    td {
-                        padding: 10px 24px;
-                    }
-                }
-            }
-        }
-    }
-
-    .customers-table-card {
-        box-shadow: $box-shadow;
-        border-radius: 8px;
-        border: 1px solid $clr-base-borde;
-        width: 100%;
-        .card-header {
-            padding: 24px;
-        }
-
-        
-
-        .customers-table {
-            width: 100%;
-            border-collapse: collapse;
-
-            tr {
-                text-align: left;
-
-            }
-
-            tbody {
-                tr {
-                    td {
-                        padding: 15px 24px;
+                    .simple-list {
+                        display: flex;
+                        list-style: none;
+                       
+                        
 
                         
                     }
                 }
             }
-
-            input[type="checkbox"] {
-                margin-right: 6px;
-            }
-
-            .profile {
-                float: left;
-                margin-right: 10px;
-
-            }
-
-            .user-name {
-                font-weight: 600;
-                text-transform: capitalize;
-            
-            }
-
-            .email {
-                color: $clr-supportive-text;
-                margin-top: 3px;
-            }
-
-            th {
-                text-align: left;
-                background: $clr-th-bg;
-                border-bottom: 1px solid $clr-base-borde;
-                border-top: 1px solid $clr-base-borde;
-                padding: 16px 24px;
-                font-size: 12px;
-                text-transform: uppercase;
-                letter-spacing: 1px;
-                
-                &:nth-child(1) {
-                    border-left: 0;
-                }
-
-                &:nth-child(6) {
-                    border-right: 1px solid $clr-base-borde;
-                }
-            }
-
-            td {
-                padding-left: 24px;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                font-size: 14px;
-                border-bottom: 1px solid $clr-base-borde;
-                border-top: 1px solid $clr-base-borde;
-                border-right: 1px solid $clr-base-borde;
-
-                &:nth-child(1) {
-                    border-left: 0
-                }
-
-                &:nth-child(6) {
-                    border-right: 0;
-                }
-            }
-        }
+        }    
+        
     }
-}
 
-.primary-text {
-    color: $clr-primary;
-    font-weight: 500;
-    text-transform: capitalize;
-
-}
-
-.utility {
-    list-style: none;
-    display: flex;
-    column-gap: 8px;
-
-    a {
-        text-transform: capitalize;
-        color: $clr-utility-link-text;
-
-        &.primary-text {
-            color: $clr-primary;
-            font-weight: 600;
-        }
+    .table-footer {
+        padding: 24px;
     }
-}
-
-a {
-    text-decoration: none;
-}
-
-.status {
-    display: flex;
     
-    .paid {
-        color: $clr-paid-badge-text;
-        padding: 6px 25px;
-        background: $clr-paid-badge-bg;
-        border: 1px solid $clr-paid-badge-border;
-        text-transform: capitalize;
-        margin-top: -15px;
-        border-radius: 16px;
-    }
 }

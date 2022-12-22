@@ -248,4 +248,19 @@
         margin-top: 3px;
         margin-right: 10px;
     }
+
+    .prev-icon {
+        background: url('../img/prev-arrow.png') no-repeat;
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    .next-icon {
+        background: url('../img/next-arrow.png') no-repeat;
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+        float: right;
+    }
 }

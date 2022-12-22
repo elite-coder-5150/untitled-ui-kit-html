@@ -294,6 +294,86 @@ p.privacy-policy {
     }
 }
 
+/***** analytics *****/
+.analytics {
+    display: flex;
+    // flex-direction: row;
+   
+    padding: 96px 0;
+    // text-align: center;
+    width: 100vw;
+
+    .supportive-text {
+        color: $clr-primary;
+        text-align: center;
+        font-weight: bold;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    h1.section-title {
+        color: #0D1829;
+        font-size: 36px;
+       margin-top: 0;
+       text-align: center;
+    }
+
+    p.large-text {
+        text-align: center;
+        color: #445469;
+        line-height: 1.75rem;
+        margin-top: 60px;
+    }
+
+    .features {
+        display: flex;
+        margin: 64px auto 0 auto;
+       
+        .feature {
+            width: 384px;
+            height: 178px;
+            display: flex;
+            flex-direction: column;
+            // text-align: center;
+            text-align: center;
+            .icon {
+                margin: 0 auto;
+                width: 56px;
+            }
+
+            .desc {
+                font-size: 14px;
+                width: 384px;
+
+                color: #445469;
+            }
+
+            .feature-title {
+                text-align: center;
+                font-size: 20px;
+                margin-top: 20px;
+                margin-bottom: 8px;
+            }
+        }
+    }
+
+    a {
+        text-align: center;
+        display: inline-block;
+
+        color: $clr-primary;
+        text-decoration: none;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+
+    .button-group {
+        margin: 20px auto 0 auto;
+        width: 160px;
+
+    }
+}
+
 footer.main-footer-one {
     display: flex;
     flex-direction: row;

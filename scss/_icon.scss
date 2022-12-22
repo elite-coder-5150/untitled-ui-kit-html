@@ -196,10 +196,35 @@
         height: 56px;
     }
 
+    .connect-icon {
+        background: url('../img/banking/connect-icon.png') no-repeat;
+        width: 56px;
+        height: 56px;
+    }
+
+    .integration-icon {
+        background: url('../img/banking/integration-icon.png') no-repeat;
+        width: 56px;
+        height: 56px;
+    }
+
+    .care-icon {
+        background: url('../img/banking/care-icon.png') no-repeat;
+        width: 56px;
+        height: 56px;
+    }
+
     .manage-icon {
         background: url('../img/banking/feature-icon-three.png') no-repeat;
         width: 56px;
         height: 56px;
+    }
+
+    .read-more-icon {
+        background: url('../img/banking/learn-more-icon.png') no-repeat;
+        width: 14px;
+        height: 14px;
+        margin-right: 40px;
     }
 
     .check-list-icon {
@@ -262,5 +287,10 @@
         height: 20px;
         margin-left: 10px;
         float: right;
+    }
+
+    .feature-icon-two {
+        background: url('../img/banking/feature-icon-two.png') no-repeat;
+
     }
 }

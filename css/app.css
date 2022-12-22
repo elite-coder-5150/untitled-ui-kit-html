@@ -552,20 +552,6 @@ section {
 .table-card .invoice-table tbody a.primary {
   color: #8654E1;
 }
-.table-card .invoice-table tbody td.pagination-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.table-card .invoice-table tbody td.pagination-container .pagination {
-  display: flex;
-  flex-direction: row;
-}
-.table-card .invoice-table tbody td.pagination-container .pagination .simple-list {
-  display: flex;
-  list-style: none;
-}
 .table-card .table-footer {
   padding: 24px;
 }

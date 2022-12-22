@@ -1,5 +1,7 @@
 .table-card {
     box-shadow: $box-shadow;
+    margin-top: 50px;
+    border: 1px solid $clr-base-borde;
 
     .table-card-header {
         padding: 24px;
@@ -12,6 +14,7 @@
         input {
             margin-right: 10px;
         }
+
         th {
             width: 176px;
             text-align: left;
@@ -63,27 +66,6 @@
                     color: $clr-primary;
                 }
             } 
-
-            td.pagination-container {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                align-items: center;
-                .pagination {
-                    display: flex;
-                    
-                   flex-direction: row;
-
-                    .simple-list {
-                        display: flex;
-                        list-style: none;
-                       
-                        
-
-                        
-                    }
-                }
-            }
         }    
         
     }

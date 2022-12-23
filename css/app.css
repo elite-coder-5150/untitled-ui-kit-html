@@ -721,6 +721,27 @@ body {
   height: 740px;
   padding-bottom: 96px;
 }
+.showcase .section-title {
+  font-size: 60px;
+  text-align: left;
+}
+.showcase .large-text {
+  text-align: left;
+}
+.showcase .lg-secondary {
+  text-transform: capitalize;
+  line-height: 24px;
+}
+.showcase .icon {
+  margin-right: 10px;
+}
+.showcase .btn-group {
+  display: flex;
+  -webkit-column-gap: 24px;
+     -moz-column-gap: 24px;
+          column-gap: 24px;
+  margin-top: 48px;
+}
 
 .logos {
   display: flex;
@@ -729,10 +750,18 @@ body {
   justify-content: center;
   padding-top: 0;
   margin-top: 30px;
+  padding-top: 60px;
 }
 .logos .text {
   text-align: center;
   margin-bottom: 32px;
+}
+.logos .logo {
+  display: flex;
+  margin: 0 auto;
+  width: 1216px;
+  list-style: none;
+  margin-bottom: 30px;
 }
 .logos li {
   margin-right: 30px;
@@ -1135,13 +1164,6 @@ footer.main-footer-one .col .tag-new {
   background: #fff;
 }
 
-.drop-down {
-  /***** 
-      I need the design to code the rest of the ui comoents and i wont get 
-      a change til monday to do that 
-      . to solve this issue i need to write more javascript
-  *****/
-}
 .drop-down .profile-card {
   width: 240px;
   padding: 0px;
@@ -1163,6 +1185,10 @@ footer.main-footer-one .col .tag-new {
 
 .show {
   display: flex;
+}
+
+.hidden {
+  display: none;
 }
 
 /***** breakpoints *****/
@@ -1595,6 +1621,8 @@ footer.main-footer-one .col .tag-new {
   margin-left: 10px;
   float: right;
 }
-.icon .feature-icon-two {
-  background: url("../img/banking/feature-icon-two.png") no-repeat;
+.icon .show-reel-icon {
+  background: url("../img/banking/show-reel-icon.png") no-repeat;
+  width: 24px;
+  height: 24px;
 }

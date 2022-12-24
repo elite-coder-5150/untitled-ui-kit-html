@@ -2,3 +2,4 @@ config.codekit3
 docs/.obsidian
 .VSCodeCounter
 README.html
+.vscode/

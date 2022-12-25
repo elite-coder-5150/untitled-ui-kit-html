@@ -1,14 +1,17 @@
+// import {DropDown} from './drop-down';
 class App {
     intit() {
         this.cacheDom();
         this.initEvents();
+
+        
     }
 
     cacheDom() {
         this.btn = document.querySelector('button.md-secondary');
         this.body = document.querySelector('body');
-        this.profile = document.querySelector('.dd-profile-card');
-        this.dd =  document.querySelector('.drop-down');
+       
+        this.dropDown =  document.querySelector('.drop-down-menu');
         this.modal = document.querySelector('.modal');
         this.overlay = document.querySelector('.overlay');
         this.username = document.querySelector('.username');
@@ -18,22 +21,25 @@ class App {
     initEvents() {
         this.btn.addEventListener('click', () => {
             this.toggleDropDown()
-        });
+        })
+
+        
 
     }
 
     //? this function will work with modals as well
 
     toggleDropDown() {
-        if (!(this.profile.classList.contains('show'))) {
-            this.profile.classList.add('show')
-            this.profile.classList.remove('hidden')
-        } else if (this.profile.classList.contains('show')) {
-            this.profile.classList.remove('show');
-            this.profile.classList.add('hidden');
+        if (!(this.dropDown.classList.contains('show'))) {
+            this.dropDown.classList.add('show')
+            this.dropDown.classList.remove('hidden')
+        } else if (this.dropDown.classList.contains('show')) {
+            this.dropDown.classList.remove('show');
+            this.dropDown.classList.add('hidden');
         }
     }
 
+    //? this is expermintial
     toggleModal() {
         this.overlay.addEventListener('click', () => {
             this.overlay.classList.add('closed');
@@ -49,6 +55,10 @@ class App {
             if (formData === true) {
                 this.sendtoDatabase();
             }
+        })
+
+        this.dropDown.addEventListener('click', () => {
+            this.dropDown.toggle()
         })
     }
 
@@ -68,4 +78,4 @@ class App {
 }
 
 let app = new App();
-app.intit()
+app.intit();

@@ -1,1 +1,0 @@
-const button="\n    <button onclick='toggleDropdown()'>testign</button>\n    <div id=\"my-div\">\n        this is a div element\n    </div>\n",body=document.getElementByTagName("body");body.append(button);const toggleDropdown=()=>{document.querySelector(".drop-down").classList.toggle("show")};document.querySelector(".drop-down").classList.toggle("show");

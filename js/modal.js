@@ -3,14 +3,6 @@ class Modal {
 
     }
 
-    openModal() {
-
-    }
-
-    closeModal() {
-
-    }
+    
 }
 
-let modal = new Modal();
-modal.openModal();

@@ -46,6 +46,30 @@
     background: $clr-light-bg;
     height: 740px;
     padding-bottom: 96px;
+
+    .section-title {
+        font-size: 60px;
+        text-align: left;
+    }
+
+    .large-text {
+        text-align: left;
+    }
+
+    .lg-secondary {
+        text-transform: capitalize;
+        line-height: 24px;
+    }
+
+    .icon {
+        margin-right: 10px;
+    }
+
+    .btn-group {
+        display: flex;
+        column-gap: 24px;
+        margin-top: 48px;
+    }
 }
 
 .logos {
@@ -55,10 +79,19 @@
     justify-content: center;
     padding-top: 0;
     margin-top: 30px;
+    padding-top: 60px;
 
     .text {
         text-align: center;
         margin-bottom: 32px;
+    }
+
+    .logo {
+        display: flex;
+        margin: 0 auto;
+        width: 1216px;
+        list-style: none;
+        margin-bottom: 30px;
     }
     li {
         margin-right: 30px;

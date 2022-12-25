@@ -82,60 +82,28 @@ section {
             margin-top: 3px;
         }
     }
+
+    .lg-btn-group {
+        background: #F5EBFF;
+        border: 1px solid $clr-lg-btn-group-border;
+        padding: 10px 24px;
+        border-radius: 8px;
+    
+        .load-more-posts-btn {
+            font-size: 16px;
+            color: $clr-primary;
+            text-transform: capitalize;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+    }
 }
 
 .blog-posts {
     margin-top: -475px;
 }
 
-.badge-purple {
-    background: $clr-badge-purple-bg;
-    color: $clr-badge-purple-text;
-    text-transform: capitalize;
-    border: 1px solid $clr-badge-purple-border;
-    font-size: 14px;
-    padding: 2px 10px;
-    border-radius: 16px;
-    display: inline-flex;
-}
 
-.input-bg {
-    background: $clr-light-bg;
-    display: inline-flex;
-    padding: 5px 30px;
-    width: 320px;
-    height: 48px;
-    box-shadow: $box-shadow;
-    margin-top: 40px;
-    border-radius: 8px;
 
-    input {
-        border: none;
-        color: $clr-input-text;
-        font-size: 16px;
-        width: 100%;
 
-        &:focus {
-            outline: none;
-        }
 
-        &::-webkit-input-placeholder {
-            color: $clr-input-text;
-        }
-    }
-}
-
-.lg-btn-group {
-    background: #F5EBFF;
-    border: 1px solid $clr-lg-btn-group-border;
-    padding: 10px 24px;
-    border-radius: 8px;
-
-    .load-more-posts-btn {
-        font-size: 16px;
-        color: $clr-primary;
-        text-transform: capitalize;
-        font-weight: 600;
-        letter-spacing: 1px;
-    }
-}

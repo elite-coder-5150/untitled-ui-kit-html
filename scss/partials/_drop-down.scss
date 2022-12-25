@@ -1,35 +1,73 @@
-.drop-down {
-   
-    /***** 
-        I need the design to code the rest of the ui comoents and i wont get 
-        a change til monday to do that 
-        . to solve this issue i need to write more javascript
-    *****/
-    .profile-card {
-        width: 240px;
-        padding: 0px;
+@import "mixins";
+
+.drop-down-menu {
+    width: 243px;
+    background: $clr-light-bg;
+    box-shadow: $box-shadow;
+    border: 1px solid $clr-base-borde;
+
+    font-size: 14px;
+
+    margin-left: 75px;
+    margin-top: 20px;
+    display: none;
+    .profile {
+        display: flex;
+        flex-direction: column;
+    }
+    header {
+        display: flex;
+        padding: 10px 24px;
+       
+
+        .avatar {
+            margin-right: 12px;
+        }
+
+        border-bottom: 1px solid $clr-base-borde;
+
+        .user-info {
+            color: #4A5567;
+        }
     }
 
-    .avatar {
-        margin: 0
-    }
-
-    .info {
-        margin-right: 20px;
-    }
-
+    .card-body,
     .card-footer {
-        border-top: 1px solid $clr-base-borde;
-        padding: 24px;
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            border-bottom: 1px solid $clr-base-borde;
+            
+            padding: 10px 0;
+        }
+
+        li {
+            padding-left: 24px;
+            margin-bottom: 10px;
+            
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+
+        }
+
+        a {
+            text-decoration: none;
+            color: #4A5567;
+            text-transform: capitalize;
+        }
     }
 
-    .md-secondary {
-        margin-top: 50px;
-        margin-left: 50px;
-    }
+
 }
 
 .show {
     display: flex;
 }
 
+.hidden {
+    display: none;
+}

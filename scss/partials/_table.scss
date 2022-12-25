@@ -2,6 +2,7 @@
     box-shadow: $box-shadow;
     margin-top: 50px;
     border: 1px solid $clr-base-borde;
+    border-radius: 8px 8px 0 0;;
 
     .table-card-header {
         padding: 24px;
@@ -21,6 +22,8 @@
             background: #F9FAFB;
             padding: 12px 24px;
             font-size: 14px;
+            font-weight: 600;
+            color: $clr-supportive-text;
 
             border: {
                 top: 1px solid $clr-base-borde;

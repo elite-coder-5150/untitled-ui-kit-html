@@ -1,0 +1,28 @@
+{
+  "name": "untitled-ui-kit-html",
+  "version": "0.9.2",
+  "description": "simple figma to html/scss.js",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elite-coder-5150/untitled-ui-kit-html.git"
+  },
+  "keywords": [
+    "design-to-code",
+    "figma",
+    "scss",
+    "untitled-ui-kit"
+  ],
+  "author": "Darrell Parkhouse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elite-coder-5150/untitled-ui-kit-html/issues"
+  },
+  "homepage": "https://github.com/elite-coder-5150/untitled-ui-kit-html#readme"
+}

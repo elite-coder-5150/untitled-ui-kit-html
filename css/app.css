@@ -1537,8 +1537,18 @@ footer.main-footer-one .col .tag-new {
 .icon {
   display: inline-flex;
   float: left;
+}
+.icon-sm {
+  width: 16px;
+  height: 16px;
+}
+.icon-md {
   width: 24px;
   height: 24px;
+}
+.icon-lg {
+  width: 56px;
+  height: 56px;
 }
 .icon .back-icon {
   background: url("../img/back-error-icon.png") no-repeat;

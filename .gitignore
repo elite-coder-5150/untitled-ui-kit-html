@@ -3,3 +3,4 @@ docs/.obsidian
 .VSCodeCounter
 README.html
 .vscode/
+node_modules

@@ -1,0 +1,161 @@
+.icon-xs {
+    width: 16px;
+    height: 16px;
+
+    display: inline-flex;
+    margin-right: 6px;
+ 
+    /***** this is a sweet trick *****/
+    > * {
+        margin-top: 3px;
+        padding-top:8px;
+        
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    .api-icon {
+        background: url('../img/drop-down/api-icon.png') no-repeat;
+        width: 16px;
+        height: 16px;
+    }
+
+    .invite-icon {
+        background: url('../img/drop-down/invite-icon.png') no-repeat;
+        width: 16px;
+        height: 16px;
+    }
+
+    .change-log-icon {
+        background: url('../img/drop-down/change-log-icon.png') no-repeat;
+        width: 16px;
+        height: 16px;
+    }
+
+    .settings-icon {
+        background: url('../img/drop-down/settings-icon.png') no-repeat;
+        width: 16px;
+        height: 16px;
+    }
+
+    .email-icon {
+        background: url('../img/drop-down/email-icon.png') no-repeat;
+        width: 16px;
+        height: 16px;
+    }
+
+    .logout-icon {
+        background: url('../img/drop-down/logout-icon.png') no-repeat;
+        width: 16px;
+        height: 16px;
+    }
+
+    .slack-icon {
+        background: url('../img/drop-down/slack-icon.png') no-repeat;
+        width: 16px;
+        height: 16px;
+    }
+
+    .user-icon {
+        background: url('../img/drop-down/user-icon.png') no-repeat;
+        width: 16px;
+        height: 16px;
+    }
+
+    .support-icon {
+        background: url('../img/drop-down/support-icon.png') no-repeat;
+        width: 16px;
+        height: 16px;
+    }
+
+    .team-icon {
+        background: url('../img/drop-down/team-icon.png') no-repeat;
+        width: 16px;
+        height: 16px;
+    }
+}
+
+.icon-sm {
+    width: 24px;
+    height: 24px;
+
+    .back-icon {
+        background: url('../img/back-error-icon.png') no-repeat;
+        width: 24px;
+        height: 24px;
+        margin-top: -3px;
+        margin-right: 10px;
+    }
+
+    .close-icon {
+        background: url('../img/profile/close-icon.png') no-repeat;
+        width: 24px;
+        height: 24px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.icon-md {
+    width: 48px;
+    height: 48px;
+
+    .sisyphus-icon {
+        background: url('../img/sisyphus-icon.png') no-repeat;
+        width: 48px;
+        height: 48px;
+    }
+
+    .catalog-icon {
+        background: url('../img/catalog-icon.png') no-repeat;
+        width: 48px;
+        height: 48px;
+        margin-right: 8px;
+    }
+}
+
+.icon-lg {
+    width: 56px;
+    height: 56px;
+}
+
+.icon-xl {
+    .notion-icon {
+        background: url('../img/icons/notion-icon.png') no-repeat;
+        width: 64px;
+        height: 64px;
+    }
+
+    .slack-icon {
+        background: url('../img/icons/slack-icon.png') no-repeat;
+        width: 64px;
+        height: 64px;
+    }
+
+    .google-drive-icon {
+        background: url('../img/icons/google-drive-icon.png') no-repeat;
+        width: 64px;
+        height: 64px;
+    }
+    .intercom-icon {
+        background: url('../img/icons/intercm-icon.png') no-repeat;
+        width: 64px;
+        height: 64px;
+    }
+
+    .jira-icon {
+        background: url('../img/icons/jira-icon.png') no-repeat;
+        width: 64px;
+        height: 64px;
+    }
+
+    .dropbox-icon {
+        background: url('../img/icons/dropbox-icon.png') no-repeat;
+        width: 64px;
+        height: 64px;
+    }
+}

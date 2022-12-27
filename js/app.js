@@ -11,11 +11,19 @@ class App {
         this.btn = document.querySelector('button.md-secondary');
         this.body = document.querySelector('body');
        
+        //? dropdown
         this.dropDown =  document.querySelector('.drop-down-menu');
+
+        //? modal
         this.modal = document.querySelector('.modal');
         this.overlay = document.querySelector('.overlay');
         this.username = document.querySelector('.username');
-        this.form = document.querySelector('.update-payment-form')
+
+        //? update 
+        this.updatePaymentForm = document.querySelector('.update-payment-form');
+        this.searchFrom = document.querySelector('.search-form');
+
+        this.notifucation = document.querySelector('.notify');
     }
 
     initEvents() {
@@ -52,7 +60,7 @@ class App {
         this.form.addEventListener('submit',() => {
             const formData = this.validateForm();
 
-            if (formData === true) {
+            if (formData.valid) {
                 this.sendtoDatabase();
             }
         })
@@ -60,6 +68,16 @@ class App {
         this.dropDown.addEventListener('click', () => {
             this.dropDown.toggle()
         })
+    }
+
+    toggleNotify() {
+        if (!(this.notifucation.contains('show'))) {
+            this.notifucation.classList.add('show');
+            this.notifucation.classList.remove('hidden')
+        } else if (this.notifucation.classList.contains('show')) {
+            this.notifucation.classList.remove('show');
+            this.notifucation.classList.add('hidden');
+        }
     }
 
     sendtoDatabase() {

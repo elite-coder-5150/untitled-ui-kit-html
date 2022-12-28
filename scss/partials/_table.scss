@@ -52,6 +52,18 @@
                 float: left;
             }
 
+            .status-paid {
+                background-color: $clr-paid-badge-bg;
+                color: $clr-paid-badge-text;
+                display: inline-flex;
+
+                text-transform: capitalize;
+
+                padding: 5px 10px;
+
+                border-radius: 16px;
+            }
+
             .links {
                 display: flex;
                 list-style: none;

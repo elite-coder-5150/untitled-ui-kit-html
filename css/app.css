@@ -535,6 +535,14 @@ section {
 .table-card .invoice-table tbody .profile {
   float: left;
 }
+.table-card .invoice-table tbody .status-paid {
+  background-color: #E8FEF2;
+  color: #007C43;
+  display: inline-flex;
+  text-transform: capitalize;
+  padding: 5px 10px;
+  border-radius: 16px;
+}
 .table-card .invoice-table tbody .links {
   display: flex;
   list-style: none;
@@ -1427,6 +1435,8 @@ footer.main-footer-one .col .tag-new {
   background: #fff;
   border: 1px solid #CFD5DE;
   line-height: 20px;
+  display: flex;
+  flex-direction: row;
 }
 .paginator .pagination .next-btn {
   display: flex;
@@ -1615,6 +1625,16 @@ footer.main-footer-one .col .tag-new {
   width: 16px;
   height: 16px;
 }
+.icon-xs .lightning-bolt-icon {
+  background: url("../img/drop-down/lightning-bold-icon.png") no-repeat;
+  width: 16px;
+  height: 16px;
+}
+.icon-xs .check-icon {
+  background: url("../img/tables/check-icon.png") no-repeat;
+  width: 16px;
+  height: 16px;
+}
 
 .icon-sm {
   width: 24px;
@@ -1634,6 +1654,16 @@ footer.main-footer-one .col .tag-new {
 }
 .icon-sm .close-icon:hover {
   cursor: pointer;
+}
+.icon-sm .prev-icon {
+  background: url("../img/tables/prev-icon.png") no-repeat;
+  width: 24px;
+  height: 24px;
+}
+.icon-sm .next-icon {
+  background: url("../img/tables/next-icon.png") no-repeat;
+  width: 24px;
+  height: 24px;
 }
 
 .icon-md {

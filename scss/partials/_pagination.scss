@@ -64,10 +64,12 @@
             background: $clr-light-bg;
             border: 1px solid $clr-base-borde;
             line-height: 20px;
+            display: flex;
+            flex-direction: row;
         }
 
         .next-btn {
-            display: flex;
+            display:flex;
             flex-direction: row;
         }
     }

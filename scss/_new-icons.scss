@@ -75,6 +75,19 @@
         width: 16px;
         height: 16px;
     }
+
+    .lightning-bolt-icon {
+        background: url('../img/drop-down/lightning-bold-icon.png') no-repeat;
+        width: 16px;
+        height: 16px;
+    }
+
+    .check-icon {
+        background: url('../img/tables/check-icon.png') no-repeat;
+        width: 16px;
+        height: 16px;
+    }
+
 }
 
 .icon-sm {
@@ -97,6 +110,19 @@
         &:hover {
             cursor: pointer;
         }
+    }
+
+    .prev-icon {
+        background: url('../img/tables/prev-icon.png') no-repeat;
+        width: 24px;
+        height: 24px;
+        
+    }
+    .next-icon {
+        background: url('../img/tables/next-icon.png') no-repeat;
+        width: 24px;
+        height: 24px;
+        
     }
 }
 

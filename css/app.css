@@ -1711,6 +1711,11 @@ footer.main-footer-one .col .tag-new {
   font-size: 14px;
   margin-top: 6px;
 }
+.settings-intergrations .settings-card .main-content .small-section-title {
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-top: 32px;
+}
 
 .icon-xs {
   width: 16px;

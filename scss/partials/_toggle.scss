@@ -1,0 +1,48 @@
+$width: 50px;
+$height: 25px;
+$border-radius: calc($height / 2);
+.toggle {
+    width: $width;
+    height: $height;
+
+    border-radius: calc($height / 2);
+    display: inline-block;
+    cursor: pointer;
+
+    &__input {
+        display: none;
+
+        &:clicked ~ .toggle__fill {
+            background: #009578;
+
+            &::after {
+                .toggle__fill::after {
+                    transform: translateX($height);
+                }
+            }
+        }
+    }
+
+    &__fill {
+        position: relative;
+        width: $width;
+        height: $height;
+        border-radius: $border-radius;
+        background: #444;
+        transition: background 0.2s;
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            height: $height;
+            width: $height;
+
+            border-radius: $border-radius;
+
+            transition: transform 0.2s;
+        }
+    }
+}

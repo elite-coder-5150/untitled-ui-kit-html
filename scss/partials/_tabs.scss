@@ -1,0 +1,33 @@
+.tabs {
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+    border-bottom: 1px solid $clr-base-borde;
+    // padding-bottom: 12px;
+    max-width: 1189px;
+
+    .tab {
+        margin-right: 16px;
+        padding-bottom: 12px;
+
+        &.active {
+            border-bottom: 1px solid $clr-primary;
+        }
+    }
+    a {
+        text-decoration: none;
+        color:#647087;
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 14px;
+        padding-bottom: 12px;
+
+        &.active {
+            color: $clr-primary;
+        }
+
+        &:hover {
+            color: $clr-primary;
+        }
+    }
+}

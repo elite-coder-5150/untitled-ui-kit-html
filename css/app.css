@@ -1676,6 +1676,9 @@ footer.main-footer-one .col .tag-new {
   transition: transform 0.2s, -webkit-transform 0.2s;
 }
 
+.settings-intergrations {
+  padding: 96px 0;
+}
 .settings-intergrations .settings-card {
   margin: 96px 0;
   display: flex;
@@ -1703,6 +1706,10 @@ footer.main-footer-one .col .tag-new {
   font-size: 18px;
   font-weight: 600;
   text-transform: capitalize;
+}
+.settings-intergrations .settings-card .main-content p {
+  font-size: 14px;
+  margin-top: 6px;
 }
 
 .icon-xs {

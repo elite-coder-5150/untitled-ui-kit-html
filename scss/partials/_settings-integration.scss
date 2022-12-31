@@ -1,5 +1,6 @@
 .settings-intergrations {
-    
+    padding: 96px 0;
+
     .settings-card {
         margin: 96px 0;
         display: flex;
@@ -29,6 +30,11 @@
                 font-size: 18px;
                 font-weight: 600;
                 text-transform: capitalize;
+            }
+
+            p {
+                font-size: 14px;
+                margin-top: 6px;
             }
         }
     }

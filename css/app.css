@@ -1676,6 +1676,7 @@ footer.main-footer-one .col .tag-new {
   transition: transform 0.2s, -webkit-transform 0.2s;
 }
 
+/***** breakpoints *****/
 .settings-intergrations {
   padding: 96px 0;
 }
@@ -1715,6 +1716,55 @@ footer.main-footer-one .col .tag-new {
   font-weight: 500;
   text-transform: capitalize;
   margin-top: 32px;
+}
+.settings-intergrations .settings-card .main-content .integrations {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.settings-intergrations .settings-card .main-content .app {
+  border: 1px solid #CFD5DE;
+  width: 415px;
+  height: 193px;
+  position: relative;
+}
+.settings-intergrations .settings-card .main-content .app .card-body {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.settings-intergrations .settings-card .main-content .app .card {
+  display: flex;
+  flex-direction: column;
+}
+.settings-intergrations .settings-card .main-content .app input {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+.settings-intergrations .settings-card .main-content .app .app-title {
+  color: #0d1829;
+  margin-left: 15px;
+  line-height: 46px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.settings-intergrations .settings-card .main-content .app p.desc {
+  font-size: 14px;
+}
+.settings-intergrations .settings-card .main-content .app .card-footer {
+  width: 415px;
+  height: 53px;
+  margin-top: 30px;
+  border: 1px solid #CFD5DE;
+  border-top: 0;
+  text-align: right;
+}
+
+.icon {
+  display: flex;
+  margin-bottom: 32px;
 }
 
 .icon-xs {
@@ -1836,6 +1886,11 @@ footer.main-footer-one .col .tag-new {
   width: 48px;
   height: 48px;
   margin-right: 8px;
+}
+.icon-md .linear-icon {
+  background: url("../img/settings-integrations/linear-icon.png") no-repeat;
+  width: 48px;
+  height: 48px;
 }
 
 .icon-lg {

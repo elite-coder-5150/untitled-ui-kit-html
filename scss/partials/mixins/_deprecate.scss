@@ -1,0 +1,5 @@
+@mixin deprcate($name, $depracate-version, $remove-version, $ignore-wrarnings: false) {
+    @if ($enable-depracation-messages != false and $ignore-wrarnings != true) {
+        @warn "#{$name} has been depricated as of #{$depracate-version} and will be removed in #{$remove-version}."
+    }
+}

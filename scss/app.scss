@@ -25,7 +25,11 @@
 @import "partials/toggle";
 @import "partials/settings-integration";
 
-@import "mixins/deprecated";
+@import "partials/mixins/deprecate";
+@import "partials/mixins/alert";
+@import "partials/mixins/backdrop";
+@import "partials/mixins/border-radius";
+
 @import "icon";
 @import "new-icons";
 

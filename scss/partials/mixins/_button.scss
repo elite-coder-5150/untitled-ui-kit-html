@@ -1,0 +1,17 @@
+@mixin button-variant($clr-bg, $border, $text-color, $type) {
+    @if $type == "rounded" {
+        border-radius: 8px;
+    } @else if $type == "square" {
+        border-radius: 0;
+    } @else if $type == "circle" {
+        border-radius: 50%;
+    }
+
+    background-color: $clr-bg;
+    border: 1px solid $border;
+    color: $text-color;
+}
+
+button {
+    @include button-variant($clr-light-bg, $clr-primary, $clr-primary, 'square');
+}

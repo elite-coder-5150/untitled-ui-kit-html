@@ -1689,8 +1689,38 @@ footer.main-footer-one .col .tag-new {
 .settings-intergrations .settings-card .left-sidebar {
   width: 80px;
   height: 960px;
-  background: #8654E1;
+  background: #6941C6;
   float: left;
+  padding-top: 32px;
+}
+.settings-intergrations .settings-card .left-sidebar .logo {
+  margin: 0 auto;
+  width: 39px;
+}
+.settings-intergrations .settings-card .left-sidebar ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  list-style: none;
+  align-items: center;
+  margin-top: 24px;
+}
+.settings-intergrations .settings-card .left-sidebar ul li {
+  margin-bottom: 14px;
+}
+.settings-intergrations .settings-card .left-sidebar ul li.active {
+  background-color: #8654E1;
+  padding: 12px;
+  border-radius: 8px;
+}
+.settings-intergrations .settings-card .left-sidebar .sidebar-footer {
+  position: relative;
+  top: 460px;
+}
+.settings-intergrations .settings-card .left-sidebar .sidebar-footer ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 .settings-intergrations .settings-card .main-content {
   width: 1358px;
@@ -1813,6 +1843,46 @@ button {
 }
 .icon-sm .next-icon {
   background: url("../img/tables/next-icon.png") no-repeat;
+  width: 24px;
+  height: 24px;
+}
+.icon-sm .home-icon {
+  background: url("../img/settings-integrations/home-icon.png") center center no-repeat;
+  width: 24px;
+  height: 24px;
+}
+.icon-sm .notification-icon {
+  background: url("../img/settings-integrations/notification-icon.png") center center no-repeat;
+  width: 24px;
+  height: 24px;
+}
+.icon-sm .layers-icon {
+  background: url("../img/settings-integrations/layers-icon.png") center center no-repeat;
+  width: 24px;
+  height: 24px;
+}
+.icon-sm .double-check-mark-icon {
+  background: url("../img/settings-integrations/checkmark-group-icon.png") center center no-repeat;
+  width: 24px;
+  height: 24px;
+}
+.icon-sm .pie-chart-icon {
+  background: url("../img/settings-integrations/pie-chart-icon.png") center center no-repeat;
+  width: 24px;
+  height: 24px;
+}
+.icon-sm .user-icon-settings {
+  background: url("../img/settings-integrations/user-icon.png") center center no-repeat;
+  width: 24px;
+  height: 24px;
+}
+.icon-sm .buoy-icon {
+  background: url("../img/settings-integrations/buoy-icon.png") center center no-repeat;
+  width: 24px;
+  height: 24px;
+}
+.icon-sm .settings-icon {
+  background: url("../img/settings-integrations/settings-icon.png") center center no-repeat;
   width: 24px;
   height: 24px;
 }

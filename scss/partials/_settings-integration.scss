@@ -5,14 +5,47 @@
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    .settings-card {
-        
 
+    .settings-card {
         .left-sidebar {
             width: 80px;
             height: 960px;
-            background: $clr-primary;
+            background: #6941C6;
             float: left;
+            padding-top: 32px;
+
+            .logo {
+                margin: 0 auto;
+                width: 39px;
+            }
+            ul {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                list-style: none;
+                align-items: center;
+                margin-top: 24px;
+
+                li {
+                    margin-bottom: 14px;
+
+                    &.active {
+                        background-color: $clr-primary;
+                        padding: 12px;
+                        border-radius: 8px;
+                    }
+                }
+            }
+
+            .sidebar-footer {
+               position: relative;
+               top: 460px;
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                }
+            }
         }
 
         .main-content{

@@ -7,9 +7,10 @@
     flex-wrap: nowrap;
 
     .settings-card {
+        
         .left-sidebar {
             width: 80px;
-            height: 960px;
+            height: 971px;
             background: #6941C6;
             float: left;
             padding-top: 32px;
@@ -51,9 +52,95 @@
         .main-content{
             width: 1358px;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
+            border: 1px solid $clr-base-borde;
+            
             padding-top: 32px;
             padding-left: 32px;
+            box-shadow: $box-shadow;
+            height: 1071px;
+            margin-bottom: 96px;
+            .title {
+                font-size: 30px;
+                text-transform: capitalize;
+            }
+
+            .section-title {
+                text-align: left;
+                font-size: 18px;
+                color: #0D1829;
+                margin-top: 32px;
+            }
+
+            .desc {
+                font-size: 14px;
+                color: #445469;
+                margin-top: 8px;
+            }
+
+            .apps {
+                max-width: 1218px;
+                margin-top: 48px;
+                
+                .app-card {
+                    width: 32%;
+                    height: 223px;
+                    border: 1px solid $clr-base-borde;
+                    padding: 24px;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    overflow: hidden;
+
+                    .title {
+                        font-size: 18px;
+                        color: #0D1829;
+                        line-height: 48px;
+                        margin-left: 12px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        color: #445469;
+                        margin-left: 12px;
+                        
+                    }
+
+                    .card-footer {
+                        padding-top: 24px;
+                        padding-bottom: 24px;
+                        height: 73px;
+                        display: flex;
+                        justify-content: flex-end;
+                        border-top: 1px solid $clr-base-borde;
+                        width: 100%;
+                        margin-top: 20px;
+
+                        a {
+                            font-size: 14px;
+                            text-transform: capitalize;
+                            text-decoration: none;
+                            color: $clr-primary;
+                            font-weight: 500;
+                            margin-left: auto;
+                            
+                        }
+                    }
+
+                    .card-header {
+                        display: flex;
+                        height: 48px;
+                    }
+                   
+
+                    .card-body {
+                        height: 40px;
+                        line-height: 40px;
+                        margin-top: 24px;
+                    }
+
+                }
+            }
         }
     }
 }

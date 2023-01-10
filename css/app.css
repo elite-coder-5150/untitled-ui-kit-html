@@ -1825,6 +1825,38 @@ footer.main-footer-one .col .tag-new {
   border-radius: 16px;
   border: 1px solid #8654E1;
 }
+.table-card .team-members {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table-card .team-members tr {
+  background: #F9FAF8;
+  padding: 0;
+  text-align: left;
+}
+.table-card .team-members th {
+  font-weight: normal;
+  font-size: 14px;
+  padding: 12px 25px;
+}
+.table-card .team-members th:nth-child(1) {
+  width: 292px;
+}
+.table-card .team-members th:nth-child(2) {
+  width: 120px;
+}
+.table-card .team-members th:nth-child(3) {
+  width: 176px;
+}
+.table-card .team-members th:nth-child(4) {
+  width: 224px;
+}
+.table-card .team-members th:nth-child(5) {
+  width: 288px;
+}
+.table-card .team-members th:nth-child(6) {
+  width: 116px;
+}
 
 button {
   border-radius: 0;

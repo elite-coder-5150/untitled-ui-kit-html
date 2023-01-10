@@ -1,48 +1,34 @@
-$width: 50px;
-$height: 25px;
-$border-radius: calc($height / 2);
-.toggle {
-    width: $width;
-    height: $height;
+input[type="checkbox"] {
+    appearance: none;;
+    border: 1px solid black;
+    width: 40px;
+    height: 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    position: relative;
+    transition: 240ms background-color;
+}
 
-    border-radius: calc($height / 2);
-    display: inline-block;
-    cursor: pointer;
+input[type="checkbox"]::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 1px;
+    transform: translateY(-50%);
+    transition: 240ms background-color, 240ms left;
+    will-change: left;
+} 
 
-    &__input {
-        display: none;
+input[type="checkbox"]:checked {
+    background: black;
+}
 
-        &:clicked ~ .toggle__fill {
-            background: #009578;
-
-            &::after {
-                .toggle__fill::after {
-                    transform: translateX($height);
-                }
-            }
-        }
-    }
-
-    &__fill {
-        position: relative;
-        width: $width;
-        height: $height;
-        border-radius: $border-radius;
-        background: #444;
-        transition: background 0.2s;
-
-        &::after {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-
-            height: $height;
-            width: $height;
-
-            border-radius: $border-radius;
-
-            transition: transform 0.2s;
-        }
-    }
+input[type="checkbox"]:checked::before {
+    left: 20px;
+    background: white;
 }

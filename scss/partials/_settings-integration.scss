@@ -91,6 +91,7 @@
                     flex-direction: row;
                     flex-wrap: wrap;
                     overflow: hidden;
+                    position: relative;
 
                     .title {
                         font-size: 18px;
@@ -104,6 +105,50 @@
                         color: #445469;
                         margin-left: 12px;
                         
+                    }
+
+                    .toggle-ctrl {
+                        position: absolute;
+                        top: -20px;
+                        right: 24px;
+                        display: flex;
+                        input[type="checkbox"] {
+                            appearance: none;;
+                            border: 1px solid transparent;
+                            background: #F2F4F7;
+                            width: 36px;
+                            height: 20px;
+                            border-radius: 20px;
+                            margin-top: 50px;
+                            margin-left: 50px;
+                            position: relative;
+                            transition: 240ms background-color;
+                        }
+                        
+                        input[type="checkbox"]::before {
+                            content: "";
+                            width: 16px;
+                            height: 16px;
+                            border-radius: 50%;
+                            background: $clr-light-bg;
+                            position: absolute;
+                            top: 50%;
+                            left: 1px;
+                            transform: translateY(-50%);
+                            transition: 240ms background-color, 240ms left;
+                            will-change: left;
+                            box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1), 0px 1px 2px rgba(16, 24, 40, 0.06);;
+                        } 
+                        
+                        input[type="checkbox"]:checked {
+                            background: $clr-primary;
+                        }
+                        
+                        input[type="checkbox"]:checked::before {
+                            left: 20px;
+                            background: white;
+                            border: 1px solid $clr-base-borde;
+                        }
                     }
 
                     .card-footer {

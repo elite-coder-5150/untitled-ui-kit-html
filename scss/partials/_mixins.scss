@@ -1,0 +1,17 @@
+@mixin mobile {
+    @media(width <= #{$mobile}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media(width >= #{$desktop}) {
+        @content;
+    }
+}
+
+@mixin xl-desktop {
+    @media(width >= #{$xl-desktop}) {
+        @content;
+    }
+}

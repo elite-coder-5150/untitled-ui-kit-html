@@ -1,0 +1,17 @@
+.input-card {
+  display: flex;
+}
+
+.container {
+  width: 1600px;
+  margin: 0 auto;
+}
+.container .inner-container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}

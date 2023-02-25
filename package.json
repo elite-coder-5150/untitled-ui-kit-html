@@ -1,0 +1,29 @@
+{
+  "name": "untitled-ui-kit-html",
+  "version": "0.3.1",
+  "description": "simple figma to html conversion",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elite-coder-5150/untitled-ui-kit-html.git"
+  },
+  "keywords": [
+    "figma",
+    "html",
+    "scss",
+    "js",
+    "html"
+  ],
+  "author": "Darrell Parkhouse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elite-coder-5150/untitled-ui-kit-html/issues"
+  },
+  "homepage": "https://github.com/elite-coder-5150/untitled-ui-kit-html#readme",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}

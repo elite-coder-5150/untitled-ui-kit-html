@@ -4,6 +4,12 @@
     }
 }
 
+@mixin tablet {
+    @media(width >= #{$tablet}) {
+        @content;
+    }
+}
+
 @mixin desktop {
     @media(width >= #{$desktop}) {
         @content;

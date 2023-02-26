@@ -4,6 +4,7 @@
   width: 100%;
   height: 150px;
   padding: 16px;
+  column-gap: 32px;
 }
 .input-card label {
   display: block;
@@ -12,6 +13,29 @@
   height: 40px;
   border: 1px solid #CFD5DE;
   width: 320px;
+  text-indent: 15px;
+}
+.input-card .input {
+  margin-right: 32px;
+}
+.input-card .input-bg {
+  border: 1px solid #CFD5DE;
+  height: 40px;
+  width: 320px;
+  display: flex;
+}
+.input-card .input-bg .email-icon {
+  margin-top: 9px;
+  margin-left: 12px;
+}
+.input-card .input-bg input {
+  height: 35px;
+  margin-top: 2px;
+  margin-left: 5px;
+  width: 75%;
+}
+.input-card .input-bg .help-icon {
+  margin-top: 10px;
 }
 
 .email-input {
@@ -46,4 +70,21 @@ body {
 
 input {
   border: 1px solid transparent;
+}
+
+label {
+  font-size: px-to-rem(14);
+  margin-bottom: 6px;
+}
+
+.email-icon {
+  background: url("../img/email-icon.svg") no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.help-icon {
+  background: url("../img/help-icon.svg") no-repeat;
+  width: 20px;
+  height: 20px;
 }

@@ -23,6 +23,7 @@
   height: 40px;
   width: 320px;
   display: flex;
+  flex-direction: row;
 }
 .input-card .input-bg .email-icon {
   margin-top: 9px;
@@ -40,6 +41,23 @@
 .input-card .input-bg .master-card-icon {
   margin-top: 8px;
   margin-left: 10px;
+}
+
+.users {
+  list-style: none;
+  margin-top: 4px;
+  display: flex;
+}
+.users .user {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #CFD5DE;
+  padding: 4px 12px;
+  border-radius: 16px;
+}
+.users .user .username {
+  font-size: 14px;
+  text-transform: capitalize;
 }
 
 .switch {
@@ -154,4 +172,10 @@ label {
   background: url("../img/icons/master-card-icon.svg") no-repeat;
   width: 34px;
   height: 24px;
+}
+
+.small-clsoe-icon {
+  background: url("../img/small-close-icon.svg") no-repeat;
+  width: 16px;
+  height: 16px;
 }

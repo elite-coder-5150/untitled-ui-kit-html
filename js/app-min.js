@@ -1,0 +1,1 @@
+const input=()=>{console.log("testing")};console.log("testing");

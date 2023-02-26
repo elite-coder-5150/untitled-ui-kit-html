@@ -1,3 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: $clr-body-bg;
+    font-family: $font-primary;
+}
 .container {
     width: 1600px;
     margin: 0 auto;
@@ -11,4 +20,13 @@
 .row {
     display: flex;
     flex-direction: row;
+}
+
+input {
+    border: 1px solid transparent;
+}
+
+label {
+    font-size: px-to-rem(14);
+    margin-bottom:  6px;
 }

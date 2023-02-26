@@ -21,3 +21,9 @@
         @content;
     }
 }
+
+
+@function px-to-rem($px) {
+    $result: ($px / 16px) * 1rem;
+    @return $result;
+}

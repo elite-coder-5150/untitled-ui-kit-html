@@ -23,7 +23,7 @@
 }
 
 
-@function px-to-rem($px) {
-    $result: ($px / 16px) * 1rem;
+@function px-to-rem($px, $value: 16) {
+    $result: ($px / $value) * 1rem;
     @return $result;
 }

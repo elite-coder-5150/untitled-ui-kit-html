@@ -8,7 +8,7 @@
 
     header {
         display: flex;
-
+        padding: 12px 16px;
         .profile {
             img {
                 max-height: 36px;
@@ -32,6 +32,8 @@
     .card-body {
         ul {
             @include unstyled-list();
+
+            border-bottom: 1px solid $clr-base-border;
         }
     }
 }

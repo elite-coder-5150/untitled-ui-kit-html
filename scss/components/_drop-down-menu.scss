@@ -1,0 +1,37 @@
+@import "../partials/mixins";
+@import "../partials/vars";
+
+.drop-down-menu {
+    .chevron-down {
+
+    }
+
+    header {
+        display: flex;
+
+        .profile {
+            img {
+                max-height: 36px;
+            }
+        }
+
+        .info {
+            .user-name {
+                @include font-size(14);
+                @include font-color($clr-dark-text);
+            }
+
+            .email {
+                @include font-size(14);
+                @include font-color($clr-email-text);
+
+            }
+        }
+    }
+
+    .card-body {
+        ul {
+            @include unstyled-list();
+        }
+    }
+}

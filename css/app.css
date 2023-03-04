@@ -132,6 +132,9 @@ body {
   background-color: #F4F5F7;
   font-family: "Inter", sans-serif;
 }
+body.menu {
+  background: #FFFFFF;
+}
 
 .container {
   width: 1600px;
@@ -156,6 +159,36 @@ label {
   margin-bottom: 6px;
 }
 
+button {
+  border: 0;
+}
+
+.show {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.md-secondary {
+  display: flex;
+  padding: 10px 16px;
+  background: #FFFFFF;
+  line-height: 16px;
+  margin-top: 50px;
+  margin-left: 50px;
+  border-radius: 8px;
+  border: 1px solid #CFD5DE;
+}
+.md-secondary .chevron-down {
+  background: url("../img/icons/chevron-down.svg") no-repeat;
+  width: 16px;
+  height: 16px;
+  margin-left: 10px;
+  perspective: 1000px;
+}
+
 .email-icon {
   background: url("../img/email-icon.svg") no-repeat;
   width: 20px;
@@ -178,4 +211,76 @@ label {
   background: url("../img/small-close-icon.svg") no-repeat;
   width: 16px;
   height: 16px;
+}
+
+.api-icon {
+  background: url("../img/icons/api-icon.svg") no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.change-log-icon {
+  background: url("../img/icons/change-log-icon.svg") no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.chevron-down {
+  background: url("../img/icons/chevron-down.svg") no-repeat;
+  width: 10px;
+  height: 5px;
+}
+
+.email-icon-two {
+  background: url("../img/icons/email-icon.svg") no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.invite-icon {
+  background: url("../img/icons/invite-icon.svg") no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.lightning-bolt-icon {
+  background: url("../img/icons/lightning-bolt-icon.svg") no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.logout-icon {
+  background: url("../img/icons/logout-icon.svg") no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.settings-icon {
+  background: url("../img/icons/settings-icon.svg") no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.slack-icon {
+  background: url("../img/icons/slack-icon.svg") no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.support-icon {
+  background: url("../img/icons/support-icon.svg") no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.team-icon {
+  background: url("../img/icons/team-icon.svg") no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.user-icon {
+  background: url("../img/icons/user-icon.svg") no-repeat;
+  width: 20px;
+  height: 20px;
 }

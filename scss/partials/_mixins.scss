@@ -24,6 +24,20 @@
 
 
 @function px-to-rem($px, $value: 16) {
-    $result: ($px / $value) * 1rem;
+    $result: calc($px / $value) * 1rem;
     @return $result;
+}
+
+@mixin font-size($size) {
+    font-size: px-to-rem($size);
+}
+
+@mixin font-color($color) {
+    color: $color;
+}
+
+@mixin unstyled-list() {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }

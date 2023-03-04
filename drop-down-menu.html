@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop down menu | Untitled UI</title>
+    <link rel="icon" href="img/logo.svg">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body class="menu">
+    <button class="md-secondary" (click)="rotateIcon()">
+        Account 
+        <div class="icon">
+            <div class="chevron-down"></div>
+        </div>
+    </button>
+    <div class="drop-down-menu">
+        <header>
+            <div class="profile">
+                <img src="img/olivia-rhye-profile.png" alt="">
+            </div>
+            <div class="info">
+                <div class="user-name">olivia rhey</div>
+                <div class="email">olivia@untitledui.com</div>
+            </div>
+        </header>
+
+        <div class="card-body">
+            <ul>
+                <li>
+                    <div class="icon">
+                        <div class="user-icon"></div>
+                    </div>
+                    view profile
+                </li>
+
+                <li>
+                    <div class="icon">
+                        <div class="settings-icon"></div>
+                    </div>
+                    settings
+                </li>
+
+                <li>
+                    <div class="icon">
+                        <div class="lightning-bold-icon"></div>
+                    </div>
+                    keyboard shortcuts
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <div class="icon">
+                        <div class="company-profile-icon"></div>
+                    </div>
+                    company profile
+                </li>
+
+                <li>
+                    <div class="icon">
+                        <div class="team-icon"></div>
+                    </div>
+                    team
+                </li>
+
+                <li>
+                    <div class="icon">
+                        <div class="invite-icon"></div>
+                    </div>
+                    invite colleges
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <div class="icon">
+                        <div class="change-log-icon"></div>
+                    </div>
+                    changelog
+                </li>
+
+                <li>
+                    <div class="icon">
+                        <div class="slack-icon"></div>
+                    </div>
+                    slack community
+                </li>
+
+                <li>
+                    <div class="icon">
+                        <div class="support-icon"></div>
+                    </div>
+                    support
+                </li>
+
+                <li>
+                    <div class="icon">
+                        <div class="api-icon"></div>
+                    </div>
+                    API documentation
+                </li>
+            </ul>
+
+            <footer class="card-footer">
+                <ul>
+                    <li>
+                        <div class="icon">
+                            <div class="logout-icon"></div>
+                        </div>
+                        logout
+                    </li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

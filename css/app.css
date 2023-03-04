@@ -122,6 +122,26 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+.drop-down-menu header {
+  display: flex;
+}
+.drop-down-menu header .profile img {
+  max-height: 36px;
+}
+.drop-down-menu header .info .user-name {
+  font-size: 0.875rem;
+  color: #314056;
+}
+.drop-down-menu header .info .email {
+  font-size: 0.875rem;
+  color: #445469;
+}
+.drop-down-menu .card-body ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 * {
   margin: 0;
   padding: 0;

@@ -1,0 +1,22 @@
+@import "vars";
+.md-secondary {
+    display: flex;
+    padding: 10px 16px;
+    background: $clr-light-bg;
+    
+    line-height: 16px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 8px;
+    border: 1px solid $clr-base-border;
+
+    .chevron-down {
+        background: url('../img/icons/chevron-down.svg') no-repeat;
+        width: 16px;
+        height: 16px;
+        margin-left: 10px;
+        // transform: rotate(180deg);
+        perspective: 1000px;
+        
+    }
+}

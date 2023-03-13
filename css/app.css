@@ -134,13 +134,10 @@ input:checked + .slider:before {
 .drop-down-menu header .profile img {
   max-height: 36px;
 }
-.drop-down-menu header .info .user-name {
-  font-size: 0.875rem;
-  color: #314056;
-}
+.drop-down-menu header .info .user-name,
 .drop-down-menu header .info .email {
   font-size: 0.875rem;
-  color: #445469;
+  color: #314056;
 }
 .drop-down-menu .card-body {
   display: flex;

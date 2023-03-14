@@ -156,6 +156,142 @@ input:checked + .slider:before {
   display: flex;
 }
 
+.pricing-table-one {
+  /***** end of header *****/
+  /***** end of pricing-table *****/
+}
+.pricing-table-one header {
+  display: flex;
+  flex-direction: row;
+  padding: 28px;
+  border-bottom: 1px solid #CFD5DE;
+}
+.pricing-table-one header .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.pricing-table-one header .logo .logo-text {
+  line-height: 38px;
+  margin-left: 10px;
+}
+.pricing-table-one header .primary {
+  margin-left: 40px;
+}
+.pricing-table-one header .primary ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.pricing-table-one header .primary li {
+  margin-right: 32px;
+}
+.pricing-table-one header .primary li:last-child {
+  margin-right: 0;
+}
+.pricing-table-one header .primary a {
+  text-decoration: none;
+  text-transform: capitalize;
+  line-height: 38px;
+  color: #445469;
+  font-size: 0.875rem;
+}
+.pricing-table-one header .system {
+  margin-left: auto;
+}
+.pricing-table-one header .system ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.pricing-table-one header .system li {
+  margin-left: 32px;
+}
+.pricing-table-one header .system li:first-child {
+  margin-left: 0;
+}
+.pricing-table-one header .system a {
+  text-decoration: none;
+  text-transform: capitalize;
+  line-height: 38px;
+  color: #445469;
+  font-size: 0.875rem;
+}
+.pricing-table-one header .system a.primary-link {
+  color: #FFFFFF;
+  background: #8654E1;
+  padding: 10px 18px;
+  border-radius: 0.5rem;
+}
+.pricing-table-one .pricing-table {
+  display: flex;
+  flex-direction: column;
+  padding: 86px 28px;
+}
+.pricing-table-one .pricing-table .supportive-text {
+  color: #8654E1;
+  font-size: 0.875rem;
+  margin-bottom: 12px;
+}
+.pricing-table-one .pricing-table .title {
+  font-weight: normal;
+  text-transform: capitalize;
+  margin-bottom: 24px;
+  font-size: 3rem;
+}
+.pricing-table-one .pricing-table p {
+  color: #314056;
+  font-size: 1.25rem;
+  margin-bottom: 24px;
+}
+.pricing-table-one .post-footer {
+  display: flex;
+  line-height: 38px;
+}
+.pricing-table-one .post-footer .logo {
+  display: flex;
+}
+.pricing-table-one .post-footer .copyright {
+  margin-left: auto;
+  color: #314056;
+  font-size: 0.875rem;
+}
+
+.footer-one {
+  display: flex;
+  flex-direction: row;
+  width: 1216px;
+  margin: 0 auto;
+}
+.footer-one .col {
+  width: 11rem;
+  height: 15rem;
+  margin-right: 32px;
+  font-weight: bold;
+}
+.footer-one .col .col-title {
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+.footer-one .col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-one .col li {
+  margin-bottom: 12px;
+}
+.footer-one .col a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #445469;
+  font-size: 0.875rem;
+}
+
 * {
   margin: 0;
   padding: 0;

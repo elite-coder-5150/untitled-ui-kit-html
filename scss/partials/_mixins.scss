@@ -41,3 +41,12 @@
     padding: 0;
     margin: 0;
 }
+
+@mixin flex() {
+    display: flex;
+}
+
+@mixin size($width, $height) {
+    width: px-to-rem($width);
+    height: px-to-rem($height);
+}

@@ -2,6 +2,9 @@
 @import "../partials/vars";
 
 .drop-down-menu {
+    display: flex;
+    flex-direction: column;
+    max-width: 240px;
     .chevron-down {
 
     }
@@ -16,24 +19,31 @@
         }
 
         .info {
-            .user-name {
+            .user-name ,
+            .email {
                 @include font-size(14);
                 @include font-color($clr-dark-text);
             }
 
-            .email {
-                @include font-size(14);
-                @include font-color($clr-email-text);
 
-            }
         }
     }
 
     .card-body {
+        display: flex;
+        flex-direction: column;
+        padding: 12px 10px;
+
         ul {
             @include unstyled-list();
 
+            display: flex;
+            flex-direction: column;
             border-bottom: 1px solid $clr-base-border;
+
+            li {
+                display: flex;
+            }
         }
     }
 }

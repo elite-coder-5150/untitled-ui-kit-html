@@ -1,5 +1,6 @@
 @import "../partials/mixins";
 @import "../partials/vars";
+
 .pricing-table-one {
 
 
@@ -7,7 +8,7 @@
         @include flex();
 
         flex-direction: column;
-        padding: 86px 28px;
+        padding: 96px 28px 0 28px;
 
         .supportive-text {
             @include font-color($clr-primary);
@@ -29,11 +30,64 @@
 
             margin-bottom: 24px;
         }
-    } /***** end of pricing-table *****/
+    }
+
+    /***** end of pricing-table *****/
+
+    .features {
+        @include flex();
+
+        flex-wrap: wrap;
+        padding: 96px 28px 60px 28px;
+
+        background: $clr-features-bg;
+
+        .feature {
+            @include size(384, 222);
+            margin-right: 32px;
+            margin-bottom: 64px;
+
+            &:nth-child(1),
+            &:nth-child(2),
+            &:nth-child(3) {
+                margin-right: 0;
+                margin-bottom: 0;
+            }
+            .icon {
+                display: block;
+            }
+
+            .title {
+                @include font-size(20);
+                text-transform: capitalize;
+                padding-top: 20px;
+                margin-bottom: 8px;
+            }
+
+            p {
+                @include font-size(16);
+                @include font-color($clr-feature-text);
+            }
+
+            .learn-more-link {
+                @include font-size(16);
+                @include font-color($clr-primary);
+                text-decoration: none;
+                text-transform: capitalize;
+            }
+
+            .learn-more {
+                @include flex();
+
+                margin-top: 20px;
+            }
+        }
+    }
 
     .post-footer {
         @include flex();
         line-height: 38px;
+
         .logo {
             @include flex();
         }

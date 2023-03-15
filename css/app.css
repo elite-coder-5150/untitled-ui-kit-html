@@ -157,73 +157,7 @@ input:checked + .slider:before {
 }
 
 .pricing-table-one {
-  /***** end of header *****/
   /***** end of pricing-table *****/
-}
-.pricing-table-one header {
-  display: flex;
-  flex-direction: row;
-  padding: 28px;
-  border-bottom: 1px solid #CFD5DE;
-}
-.pricing-table-one header .logo {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.pricing-table-one header .logo .logo-text {
-  line-height: 38px;
-  margin-left: 10px;
-}
-.pricing-table-one header .primary {
-  margin-left: 40px;
-}
-.pricing-table-one header .primary ul {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.pricing-table-one header .primary li {
-  margin-right: 32px;
-}
-.pricing-table-one header .primary li:last-child {
-  margin-right: 0;
-}
-.pricing-table-one header .primary a {
-  text-decoration: none;
-  text-transform: capitalize;
-  line-height: 38px;
-  color: #445469;
-  font-size: 0.875rem;
-}
-.pricing-table-one header .system {
-  margin-left: auto;
-}
-.pricing-table-one header .system ul {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.pricing-table-one header .system li {
-  margin-left: 32px;
-}
-.pricing-table-one header .system li:first-child {
-  margin-left: 0;
-}
-.pricing-table-one header .system a {
-  text-decoration: none;
-  text-transform: capitalize;
-  line-height: 38px;
-  color: #445469;
-  font-size: 0.875rem;
-}
-.pricing-table-one header .system a.primary-link {
-  color: #FFFFFF;
-  background: #8654E1;
-  padding: 10px 18px;
-  border-radius: 0.5rem;
 }
 .pricing-table-one .pricing-table {
   display: flex;
@@ -359,6 +293,73 @@ button {
   perspective: 1000px;
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+  padding: 28px;
+  border-bottom: 1px solid #CFD5DE;
+}
+header .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .logo .logo-text {
+  line-height: 38px;
+  margin-left: 10px;
+}
+header .primary {
+  margin-left: 40px;
+}
+header .primary ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+header .primary li {
+  margin-right: 32px;
+}
+header .primary li:last-child {
+  margin-right: 0;
+}
+header .primary a {
+  text-decoration: none;
+  text-transform: capitalize;
+  line-height: 38px;
+  color: #445469;
+  font-size: 0.875rem;
+}
+header .system {
+  margin-left: auto;
+}
+header .system ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+header .system li {
+  margin-left: 32px;
+}
+header .system li:first-child {
+  margin-left: 0;
+}
+header .system a {
+  text-decoration: none;
+  text-transform: capitalize;
+  line-height: 38px;
+  color: #445469;
+  font-size: 0.875rem;
+}
+header .system a.primary-link {
+  color: #FFFFFF;
+  background: #8654E1;
+  padding: 10px 18px;
+  border-radius: 0.5rem;
+}
+
+/***** end of header *****/
 .email-icon {
   background: url("../img/email-icon.svg") no-repeat;
   width: 20px;

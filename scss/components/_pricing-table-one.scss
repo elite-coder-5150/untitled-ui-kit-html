@@ -1,0 +1,47 @@
+@import "../partials/mixins";
+@import "../partials/vars";
+.pricing-table-one {
+
+
+    .pricing-table {
+        @include flex();
+
+        flex-direction: column;
+        padding: 86px 28px;
+
+        .supportive-text {
+            @include font-color($clr-primary);
+            @include font-size(14);
+
+            margin-bottom: 12px;
+        }
+
+        .title {
+            font-weight: normal;
+            text-transform: capitalize;
+            margin-bottom: 24px;
+            @include font-size(48);
+        }
+
+        p {
+            @include font-color($clr-dark-text);
+            @include font-size(20);
+
+            margin-bottom: 24px;
+        }
+    } /***** end of pricing-table *****/
+
+    .post-footer {
+        @include flex();
+        line-height: 38px;
+        .logo {
+            @include flex();
+        }
+
+        .copyright {
+            margin-left: auto;
+            @include font-color($clr-dark-text);
+            @include font-size(14);
+        }
+    }
+}

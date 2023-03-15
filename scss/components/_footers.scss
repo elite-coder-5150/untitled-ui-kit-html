@@ -7,12 +7,12 @@
     //padding: 28px;
     width: 1216px;
     margin: 0 auto;
-
+    padding-top: 64px;
     .col {
         @include size(176, 240);
 
         margin-right: 32px;
-        font-weight: bold;
+        //font-weight: bold
 
         .col-title {
             @include font-size(16);

@@ -1,3 +1,4 @@
+@import "partials/mixins";
 .email-icon {
     background: url('../img/email-icon.svg') no-repeat;
     width: 20px;
@@ -94,4 +95,39 @@
     background: url('../img/icons/user-icon.svg') no-repeat;
     width: 20px;
     height: 20px;
+}
+
+.share-team-inbox-icon {
+    background: url('../img/icons/share-team-inbox-icon.svg') no-repeat;
+    @include size(44, 44);
+}
+
+.instant-delivery-icon {
+    background: url('../img/icons/instant-delivery-icon.svg') no-repeat;
+    @include size(44, 44);
+}
+
+.manage-team-icon {
+    background: url('../img/icons/manage-team-icon.svg') no-repeat;
+    @include size(44, 44);
+}
+
+.connect-with-customers-icon {
+    background: url('../img/icons/connected-with-customers-icon.svg') no-repeat;
+    @include size(44, 44);
+}
+
+.connect-with-tools-icon {
+    background: url('../img/icons/connect-with-tools-icon.svg') no-repeat;
+    @include size(44, 44);
+}
+
+.message-heart-icon {
+    background: url('../img/icons/message-heart-icon.svg') no-repeat;
+    @include size(44, 44);
+}
+
+.learn-more-icon {
+    background: url('../img/icons/learn-more-icon.svg') no-repeat;
+    @include size(20, 20);
 }

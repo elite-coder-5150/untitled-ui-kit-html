@@ -1,0 +1,40 @@
+@import "../partials/mixins";
+@import "../partials/vars";
+
+.footer-one {
+    @include flex();
+    flex-direction: row;
+    //padding: 28px;
+    width: 1216px;
+    margin: 0 auto;
+
+    .col {
+        @include size(176, 240);
+
+        margin-right: 32px;
+        font-weight: bold;
+
+        .col-title {
+            @include font-size(16);
+            //@include font-color($clr-footer-title);
+            text-transform: capitalize;
+            margin-bottom: 20px;
+            font-weight: normal;
+        }
+
+        ul {
+            @include unstyled-list();
+        }
+
+        li {
+            margin-bottom: 12px;
+        }
+        a {
+            text-decoration: none;
+            text-transform: capitalize;
+
+            @include font-color($clr-footer-link);
+            @include font-size(14);
+        }
+    }
+}

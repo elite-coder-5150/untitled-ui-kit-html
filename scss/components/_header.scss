@@ -1,0 +1,81 @@
+@import "../partials/mixins";
+@import "../partials/vars";
+
+header {
+    @include flex();
+
+    flex-direction: row;
+    padding: 28px;
+    border-bottom: 1px solid $clr-base-border;
+
+    .logo {
+        @include flex();
+
+        flex-direction: row;
+        align-items: center;
+
+        .logo-text {
+            line-height: 38px;
+            margin-left: 10px;
+        }
+    }
+
+    .primary {
+        margin-left: 40px;
+
+        ul {
+            @include flex();
+            @include unstyled-list();
+        }
+
+        li {
+            margin-right: 32px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            text-transform: capitalize;
+            line-height: 38px;
+
+            @include font-color($clr-primary-link);
+            @include font-size(14);
+        }
+    }
+
+    .system {
+        margin-left: auto;
+        ul {
+            @include flex();
+            @include unstyled-list();
+        }
+
+        li {
+            margin-left: 32px;
+
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            text-transform: capitalize;
+            line-height: 38px;
+
+            @include font-color($clr-primary-link);
+            @include font-size(14);
+
+            &.primary-link {
+                @include font-color($clr-light-bg);
+
+                background: $clr-primary;
+                padding: 10px 18px;
+                border-radius: px-to-rem(8);
+            }
+        }
+    }
+} /***** end of header *****/

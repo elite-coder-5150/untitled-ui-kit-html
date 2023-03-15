@@ -162,7 +162,7 @@ input:checked + .slider:before {
 .pricing-table-one .pricing-table {
   display: flex;
   flex-direction: column;
-  padding: 86px 28px;
+  padding: 96px 28px 0 28px;
 }
 .pricing-table-one .pricing-table .supportive-text {
   color: #8654E1;
@@ -179,6 +179,45 @@ input:checked + .slider:before {
   color: #314056;
   font-size: 1.25rem;
   margin-bottom: 24px;
+}
+.pricing-table-one .features {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 96px 28px 60px 28px;
+  background: #F9FAFB;
+}
+.pricing-table-one .features .feature {
+  width: 24rem;
+  height: 13.875rem;
+  margin-right: 32px;
+  margin-bottom: 64px;
+}
+.pricing-table-one .features .feature:nth-child(1), .pricing-table-one .features .feature:nth-child(2), .pricing-table-one .features .feature:nth-child(3) {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.pricing-table-one .features .feature .icon {
+  display: block;
+}
+.pricing-table-one .features .feature .title {
+  font-size: 1.25rem;
+  text-transform: capitalize;
+  padding-top: 20px;
+  margin-bottom: 8px;
+}
+.pricing-table-one .features .feature p {
+  font-size: 1rem;
+  color: #445469;
+}
+.pricing-table-one .features .feature .learn-more-link {
+  font-size: 1rem;
+  color: #8654E1;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.pricing-table-one .features .feature .learn-more {
+  display: flex;
+  margin-top: 20px;
 }
 .pricing-table-one .post-footer {
   display: flex;
@@ -198,12 +237,12 @@ input:checked + .slider:before {
   flex-direction: row;
   width: 1216px;
   margin: 0 auto;
+  padding-top: 64px;
 }
 .footer-one .col {
   width: 11rem;
   height: 15rem;
   margin-right: 32px;
-  font-weight: bold;
 }
 .footer-one .col .col-title {
   font-size: 1rem;
@@ -300,7 +339,7 @@ header .system a.primary-link {
 }
 
 body {
-  background-color: #F4F5F7;
+  background-color: #fff;
   font-family: "Inter", sans-serif;
 }
 body.menu {
@@ -454,4 +493,46 @@ button {
   background: url("../img/icons/user-icon.svg") no-repeat;
   width: 20px;
   height: 20px;
+}
+
+.share-team-inbox-icon {
+  background: url("../img/icons/share-team-inbox-icon.svg") no-repeat;
+  width: 2.75rem;
+  height: 2.75rem;
+}
+
+.instant-delivery-icon {
+  background: url("../img/icons/instant-delivery-icon.svg") no-repeat;
+  width: 2.75rem;
+  height: 2.75rem;
+}
+
+.manage-team-icon {
+  background: url("../img/icons/manage-team-icon.svg") no-repeat;
+  width: 2.75rem;
+  height: 2.75rem;
+}
+
+.connect-with-customers-icon {
+  background: url("../img/icons/connected-with-customers-icon.svg") no-repeat;
+  width: 2.75rem;
+  height: 2.75rem;
+}
+
+.connect-with-tools-icon {
+  background: url("../img/icons/connect-with-tools-icon.svg") no-repeat;
+  width: 2.75rem;
+  height: 2.75rem;
+}
+
+.message-heart-icon {
+  background: url("../img/icons/message-heart-icon.svg") no-repeat;
+  width: 2.75rem;
+  height: 2.75rem;
+}
+
+.learn-more-icon {
+  background: url("../img/icons/learn-more-icon.svg") no-repeat;
+  width: 1.25rem;
+  height: 1.25rem;
 }

@@ -158,11 +158,12 @@ input:checked + .slider:before {
 
 .pricing-table-one {
   /***** end of pricing-table *****/
+  /***** end of features *****/
 }
 .pricing-table-one .pricing-table {
   display: flex;
   flex-direction: column;
-  padding: 96px 28px 0 28px;
+  padding: 96px 28px 0 112px;
 }
 .pricing-table-one .pricing-table .supportive-text {
   color: #8654E1;
@@ -183,17 +184,19 @@ input:checked + .slider:before {
 .pricing-table-one .features {
   display: flex;
   flex-wrap: wrap;
-  padding: 96px 28px 60px 28px;
+  flex-direction: row;
+  padding: 96px 28px 60px 112px;
   background: #F9FAFB;
 }
 .pricing-table-one .features .feature {
   width: 24rem;
   height: 13.875rem;
-  margin-right: 32px;
+  margin-left: 42px;
   margin-bottom: 64px;
+  column-gap: 32px;
 }
-.pricing-table-one .features .feature:nth-child(1), .pricing-table-one .features .feature:nth-child(2), .pricing-table-one .features .feature:nth-child(3) {
-  margin-right: 0;
+.pricing-table-one .features .feature:nth-child(1) {
+  margin-left: 0;
   margin-bottom: 0;
 }
 .pricing-table-one .features .feature .icon {
@@ -218,6 +221,25 @@ input:checked + .slider:before {
 .pricing-table-one .features .feature .learn-more {
   display: flex;
   margin-top: 20px;
+}
+.pricing-table-one .faq {
+  padding: 96px 32px;
+}
+.pricing-table-one .faq .title {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+.pricing-table-one .faq .supportive-text {
+  color: #8654E1;
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+.pricing-table-one .faq p {
+  font-size: 1.25rem;
+  margin-top: 20px;
+}
+.pricing-table-one .faq .questions {
+  margin-top: 64px;
 }
 .pricing-table-one .post-footer {
   display: flex;

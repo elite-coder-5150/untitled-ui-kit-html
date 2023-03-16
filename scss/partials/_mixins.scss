@@ -1,3 +1,5 @@
+@import "vars";
+
 @mixin mobile {
     @media(width <= #{$mobile}) {
         @content;
@@ -49,4 +51,8 @@
 @mixin size($width, $height) {
     width: px-to-rem($width);
     height: px-to-rem($height);
+}
+
+@mixin font-weight($weight) {
+    font-weight: $weight;
 }

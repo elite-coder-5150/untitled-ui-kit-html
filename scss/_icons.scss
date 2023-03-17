@@ -99,35 +99,40 @@
 
 .share-team-inbox-icon {
     background: url('../img/icons/share-team-inbox-icon.svg') no-repeat;
-    @include size(44, 44);
+    @include size(48, 48);
 }
 
 .instant-delivery-icon {
     background: url('../img/icons/instant-delivery-icon.svg') no-repeat;
-    @include size(44, 44);
+    @include size(48, 48);
 }
 
 .manage-team-icon {
     background: url('../img/icons/manage-team-icon.svg') no-repeat;
-    @include size(44, 44);
+    @include size(48, 48);
 }
 
 .connect-with-customers-icon {
     background: url('../img/icons/connected-with-customers-icon.svg') no-repeat;
-    @include size(44, 44);
+    @include size(48, 48);
 }
 
 .connect-with-tools-icon {
     background: url('../img/icons/connect-with-tools-icon.svg') no-repeat;
-    @include size(44, 44);
+    @include size(48, 48);
 }
 
 .message-heart-icon {
     background: url('../img/icons/message-heart-icon.svg') no-repeat;
-    @include size(44, 44);
+    @include size(48, 48);
 }
 
 .learn-more-icon {
     background: url('../img/icons/learn-more-icon.svg') no-repeat;
     @include size(20, 20);
+}
+
+.list-icon {
+    background: url('../img/icons/list-icon.svg') no-repeat;
+    @include size(24, 24);
 }

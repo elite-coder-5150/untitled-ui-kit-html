@@ -8,12 +8,10 @@ the drop down menu has the following options:
    2. team invites
    3. Api documentation
    4. logout
-   5. the header is coded
+   5. settings
+   6. help
+   7. about
+   8. 
 
 
 
-I love working with markdown because i don't have to learn a bunch of syntax to use markdown. In fact, applications like Obsidian and Typora make it even esier to write your thoughts down.
-
-
-
-Where the two app differce bwtween the two apps is the Obsidian is great for personal knoledge management but it is worthless wieh you have to write documentation for `Github`.

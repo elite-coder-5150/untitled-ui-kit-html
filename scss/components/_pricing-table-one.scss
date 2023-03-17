@@ -30,6 +30,67 @@
 
             margin-bottom: 24px;
         }
+
+        .pricing-cards {
+            .pricing-card {
+                @include size(384, 570);
+                border: 1px solid $clr-base-border;
+
+                .card-header {
+                    @include flex();
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 32px 0;
+                    background: $clr-light-bg;
+                    border-radius: 8px 8px 0 0;
+                    //border: 1px solid $clr-base-border;
+                    border-bottom: none;
+
+                    .title {
+                        @include font-size(20);
+                        text-transform: capitalize;
+                        margin-bottom: 8px;
+                    }
+
+                    .price {
+                        @include font-size(48);
+                        font-weight: bold;
+                        margin-bottom: 8px;
+                    }
+
+                    .per-month {
+                        @include font-size(16);
+                        @include font-color($clr-dark-text);
+                    }
+                }
+
+                .card-body {
+                    @include flex();
+                    flex-direction: column;
+                    padding: 32px;
+                    ul {
+                        @include unstyled-list();
+                        @include flex();
+
+                        flex-direction: column;
+                    }
+
+                    li {
+                        @include flex();
+
+                        text-transform: capitalize;
+                        margin-bottom: 16px;
+
+                        @include font-color($clr-pricing-list-text);
+                        @include font-size(16);
+
+                        .icon {
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
     }
 
     /***** end of pricing-table *****/

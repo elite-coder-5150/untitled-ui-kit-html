@@ -1,0 +1,6 @@
+@import "../partials/vars";
+@import "../partials/mixins";
+
+.showcase-one {
+    @include bg($clr-banking-one-bg);
+}

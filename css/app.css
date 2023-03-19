@@ -404,6 +404,17 @@ header .system a.primary-link {
 }
 
 /***** end of header *****/
+.update-card {
+  width: 28.5rem;
+  height: 39.375rem;
+  border: 1px solid #CFD5DE;
+}
+.update-card .featured-img {
+  background: url("../img/featured-img.png") no-repeat;
+  width: 25.5rem;
+  height: 15.875rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -416,6 +427,9 @@ body {
 }
 body.menu {
   background: #FFFFFF;
+}
+body.update-payment-body {
+  background: #F2F4F7;
 }
 
 .container {

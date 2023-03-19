@@ -5,7 +5,38 @@
     @include bg($clr-banking-showcase-one-bg);
 
     height: 938px;
+    padding-top: 96px;
     position: relative;
+    text-align: center;
+
+    .supportive-text {
+        @include font-size(16);
+        @include font-color($clr-light-supportive-text);
+
+        line-height: px-to-rem(24);
+        text-transform: capitalize;
+    }
+
+    .section-title {
+        font-size: 72px;
+        line-height: 90px;
+        margin-top: 12px;
+        @include font-color($clr-light-supportive-text);
+    }
+
+    p {
+        @include font-size(20);
+        @include font-color($clr-light-supportive-text);
+
+        line-height: px-to-rem(24);
+        text-transform: capitalize;
+
+        margin-top: 24px;
+    }
+
+    .button-group {
+        @include flex();
+    }
 
     .accent {
         background: url('../img/light-accent.png') no-repeat;
@@ -20,7 +51,7 @@
 
         position: relative;
         bottom: 0;
-        top: 538px;
+        top: 0;
 
         @include flex();
 

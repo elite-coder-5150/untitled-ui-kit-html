@@ -405,14 +405,146 @@ header .system a.primary-link {
 
 /***** end of header *****/
 .update-card {
-  width: 28.5rem;
-  height: 39.375rem;
+  width: 456px;
+  background: #FFFFFF;
+  margin-left: 50px;
+  margin-top: 50px;
+  padding-bottom: 10px;
   border: 1px solid #CFD5DE;
+  box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08), 0px 8px 8px -4px rgba(16, 24, 40, 0.03);
 }
-.update-card .featured-img {
+.update-card .card-header {
+  padding: 24px;
+}
+.update-card .card-header .featured-img {
   background: url("../img/featured-img.png") no-repeat;
   width: 25.5rem;
   height: 15.875rem;
+}
+.update-card .card-body {
+  padding: 24px;
+}
+.update-card .card-body .title {
+  font-size: 1.25rem;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+.update-card .card-body .update-payment-form label {
+  font-size: 0.875rem;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+.update-card .card-body .update-payment-form .user-name-container {
+  margin-right: 16px;
+  /***** end of .input-bg *****/
+}
+.update-card .card-body .update-payment-form .user-name-container .input-bg {
+  margin-bottom: 20px;
+  margin-top: 8px;
+}
+.update-card .card-body .update-payment-form .user-name-container .input-bg.user-input {
+  width: 16.25rem;
+  height: 2.75rem;
+  border: 1px solid #CFD5DE;
+  border-radius: 8px;
+}
+.update-card .card-body .update-payment-form .user-name-container .input-bg.user-input input {
+  width: 100%;
+  height: 80%;
+  margin-top: 4px;
+  padding-left: 16px;
+}
+.update-card .card-body .update-payment-form .user-name-container .input-bg.user-input input:focus {
+  outline: none;
+}
+.update-card .card-footer {
+  padding: 24px;
+}
+.update-card .card-footer .button-group {
+  display: flex;
+}
+.update-card .card-footer .button-group button {
+  margin-right: 4%;
+}
+.update-card .card-footer .button-group button.lg-secondary {
+  width: 12.5rem;
+  height: 2.75rem;
+  border: 1px solid #CFD5DE;
+  border-radius: 8px;
+  background: #FFFFFF;
+  color: #314056;
+  text-transform: capitalize;
+  font-size: 0.875rem;
+}
+.update-card .card-footer .button-group button.lg-primary {
+  width: 12.5rem;
+  height: 2.75rem;
+  border: 1px solid #8654E1;
+  box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08), 0px 8px 8px -4px rgba(16, 24, 40, 0.03);
+  border-radius: 8px;
+  background: #8654E1;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+.update-card .card-footer .button-group button:hover {
+  cursor: pointer;
+}
+.update-card .card-footer button {
+  width: 48%;
+}
+
+.card-expire {
+  width: 7.1875rem;
+  height: 2.75rem;
+  border: 1px solid #CFD5DE;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+.card-expire input {
+  width: 100%;
+  height: 80%;
+  margin-top: 4px;
+  padding-left: 16px;
+}
+.card-expire input:focus {
+  outline: none;
+}
+
+.card-number {
+  width: 16.25rem;
+  height: 2.75rem;
+  border: 1px solid #CFD5DE;
+  border-radius: 8px;
+  margin-right: 16px;
+  margin-top: 8px;
+}
+.card-number input {
+  width: 100%;
+  height: 80%;
+  margin-top: 4px;
+  padding-left: 16px;
+}
+.card-number input:focus {
+  outline: none;
+}
+
+.card-cvv {
+  width: 7.1875rem;
+  height: 2.75rem;
+  border: 1px solid #CFD5DE;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+.card-cvv input {
+  width: 100%;
+  height: 80%;
+  margin-top: 4px;
+  padding-left: 16px;
+}
+.card-cvv input:focus {
+  outline: none;
 }
 
 * {

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Update payment method | Untitled UI</title>
+    <link rel="icon" href="img/logo.svg">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body class="update-payment-body">
+<div class="update-card">
+    <div class="card-header">
+        <div class="featured-img"></div>
+    </div>
+
+    <div class="card-body">
+        <div class="title">update payment method</div>
+        <p class="supportive-text">Update your card details.</p>
+        <form class="update-payment-form">
+            <div class="row">
+                <div class="user-name-container">
+                    <label for="user-name">Name on card</label>
+                    <div class="input-bg user-input">
+                        <input type="text" id="user-name" placeholder="John Doe">
+                    </div>
+                </div>
+
+                <div class="expire-date-container">
+                    <label for="expire-date">Expire date</label>
+                    <div class="input-bg card-expire">
+                        <input type="text" id="expire-date" placeholder="MM/YY">
+                    </div>
+                </div>
+            </div> <!-- end of .row -->
+
+            <div class="row">
+                <div class="card-number-container">
+                    <label for="card-number">Card number</label>
+                    <div class="input-bg card-number">
+                        <input type="text" id="card-number" placeholder="1234 5678 9012 3456">
+                    </div>
+                </div>
+
+                <div class="cvv-container">
+                    <label for="cvv">CVV</label>
+                    <div class="input-bg card-cvv">
+                        <input type="text" id="cvv" placeholder="123">
+                    </div>
+                </div>
+            </div>
+        </form> <!-- end of .update-payment-form -->
+    </div>
+
+    <footer class="card-footer">
+        <div class="row">
+            <div class="button-group">
+                <button class="lg-secondary">cancel</button>
+                <button class="lg-primary">Update</button>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

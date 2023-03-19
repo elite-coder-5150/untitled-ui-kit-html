@@ -11,6 +11,10 @@ body {
     &.menu {
         background: $clr-light-bg;
     }
+
+    &.update-payment-body {
+        background: $clr-update-payment-body-bg;
+    }
 }
 .container {
     width: 1600px;

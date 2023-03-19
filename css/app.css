@@ -549,8 +549,46 @@ header .system a.primary-link {
 
 .showcase-one {
   background: #192A3A;
+  height: 938px;
+  position: relative;
+  /***** end of .cards *****/
+}
+.showcase-one .accent {
+  background: url("../img/light-accent.png") no-repeat;
+  width: 55.9375rem;
+  height: 45rem;
+  position: absolute;
+  right: 0;
+  top: 210px;
+}
+.showcase-one .cards {
+  width: 80rem;
+  height: 30rem;
+  position: relative;
+  bottom: 0;
+  top: 538px;
+  display: flex;
+}
+.showcase-one .cards .card-one {
+  background: url("../img/card-one-light.png") no-repeat;
+  width: 45.625rem;
+  height: 48.75rem;
+  position: absolute;
+  top: -10px;
+  left: 561px;
+  z-index: 2;
+}
+.showcase-one .cards .card-two {
+  background: url("../img/card-two-light.png") no-repeat;
+  width: 45.625rem;
+  height: 30rem;
+  position: absolute;
+  left: 303px;
+  top: 10px;
+  z-index: 1;
 }
 
+/***** end of .showcase-one *****/
 * {
   margin: 0;
   padding: 0;

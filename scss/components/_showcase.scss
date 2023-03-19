@@ -3,5 +3,44 @@
 
 .showcase-one {
     @include bg($clr-banking-showcase-one-bg);
-}
 
+    height: 938px;
+    position: relative;
+
+    .accent {
+        background: url('../img/light-accent.png') no-repeat;
+        @include size(895, 720);
+        position: absolute;
+        right: 0;
+        top: 210px;
+    }
+
+    .cards {
+        @include size(1280, 480);
+
+        position: relative;
+        bottom: 0;
+        top: 538px;
+
+        @include flex();
+
+        .card-one {
+            background: url('../img/card-one-light.png') no-repeat;
+            @include size(730, 780);
+            position: absolute;
+            top: -10px;
+            left: 561px;
+            z-index: 2;
+
+        }
+
+        .card-two {
+            background: url('../img/card-two-light.png') no-repeat;
+            @include size(730, 480);
+            position: absolute;
+            left: 303px;
+            top: 10px;
+            z-index: 1;
+        }
+    } /***** end of .cards *****/
+} /***** end of .showcase-one *****/

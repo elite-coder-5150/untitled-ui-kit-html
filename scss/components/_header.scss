@@ -78,4 +78,19 @@ header {
             }
         }
     }
+
+    &.header-dark {
+        background: $clr-dark-header-bg;
+        border-bottom: none;
+
+        .logo-text {
+            @include font-color($clr-light-supportive-text);
+        }
+
+        a {
+            @include font-color($clr-light-supportive-text);
+        }
+    }
 } /***** end of header *****/
+
+

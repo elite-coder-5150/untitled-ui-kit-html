@@ -1,0 +1,160 @@
+@import "../partials/mixins";
+
+.update-card {
+    width: 456px;
+    background: $clr-light-bg;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+
+    border: 1px solid $clr-base-border;
+    box-shadow: $box-shadow;
+
+    .card-header {
+        padding: 24px;
+
+        .featured-img {
+            background: url('../img/featured-img.png') no-repeat;
+            @include size(408, 254);
+        }
+    }
+
+    .card-body {
+        padding: 24px;
+
+        .title {
+            @include font-size(20);
+            text-transform: capitalize;
+            margin-bottom: 8px;
+        }
+
+        .update-payment-form {
+            label {
+                @include font-size(14);
+                text-transform: capitalize;
+                margin-bottom: 8px;
+            }
+            .user-name-container {
+
+                //border: 1px solid $clr-base-border;
+                margin-right: 16px;
+
+                .input-bg {
+                    margin-bottom: 20px;
+                    margin-top: 8px;
+                    &.user-input {
+                        @include size(260, 44);
+                        border: 1px solid $clr-base-border;
+                        border-radius: 8px;
+
+                        input {
+                            width: 100%;
+                            height: 80%;
+                            margin-top: 4px;
+                            padding-left: 16px;
+
+                            &:focus {
+                                outline: none;
+                            }
+                        }
+                    }
+                } /***** end of .input-bg *****/
+
+            }
+        }
+    }
+
+    .card-footer {
+        padding: 24px;
+
+        .button-group {
+            @include flex();
+
+            button {
+
+                margin-right: 4%;
+
+                &.lg-secondary {
+                    @include size(200, 44);
+                    border: 1px solid $clr-base-border;
+                    border-radius: 8px;
+                    background: $clr-light-bg;
+                    color: $clr-dark-text;
+                    text-transform: capitalize;
+                    @include font-size(14);
+                }
+
+                &.lg-primary {
+                    @include size(200, 44);
+                    border: 1px solid $clr-primary;
+                    box-shadow: $box-shadow;
+                    border-radius: 8px;
+                    background: $clr-primary;
+                    color: $clr-light-bg;
+                    text-transform: capitalize;
+                    font-weight: bold;
+                    @include font-size(14);
+                }
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+        button {
+            width: 48%;
+        }
+    }
+}
+
+.card-expire {
+    @include size(115, 44);
+    border: 1px solid $clr-base-border;
+    border-radius: 8px;
+    margin-top: 8px;
+    input {
+        width: 100%;
+        height: 80%;
+        margin-top: 4px;
+        padding-left: 16px;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+.card-number {
+    @include size(260, 44);
+    border: 1px solid $clr-base-border;
+    border-radius: 8px;
+    margin-right: 16px;
+    margin-top: 8px;
+    input {
+        width: 100%;
+        height: 80%;
+        margin-top: 4px;
+        padding-left: 16px;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+.card-cvv {
+    @include size(115, 44);
+    border: 1px solid $clr-base-border;
+    border-radius: 8px;
+    margin-top: 8px;
+    input {
+        width: 100%;
+        height: 80%;
+        margin-top: 4px;
+        padding-left: 16px;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}

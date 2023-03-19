@@ -547,6 +547,10 @@ header .system a.primary-link {
   outline: none;
 }
 
+.showcase-one {
+  background: #192A3A;
+}
+
 * {
   margin: 0;
   padding: 0;

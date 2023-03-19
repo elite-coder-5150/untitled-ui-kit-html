@@ -1,4 +1,8 @@
 // codekit-prepend-comment
+@import "partials/vars";
+@import "partials/base";
+@import "partials/mixins";
+@import "partials/buttons";
 
 @import "components/inputs";
 @import "components/toggle";
@@ -9,11 +13,5 @@
 @import "components/breadcrumbs";
 @import "components/update-payment-method";
 @import "components/showcase";
-
-@import "partials/vars";
-@import "partials/base";
-@import "partials/mixins";
-@import "partials/buttons";
-
 
 @import "icons";

@@ -216,8 +216,6 @@ input:checked + .slider:before {
 }
 .drop-down-menu .card-body ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid #CFD5DE;
@@ -286,8 +284,6 @@ input:checked + .slider:before {
 }
 .pricing-table-one .pricing-table .pricing-cards .pricing-card .card-body ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
   display: flex;
   flex-direction: column;
 }
@@ -394,8 +390,6 @@ input:checked + .slider:before {
 }
 .footer-one .col ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
 }
 .footer-one .col li {
   margin-bottom: 12px;
@@ -428,8 +422,6 @@ header .primary {
 header .primary ul {
   display: flex;
   list-style: none;
-  padding: 0;
-  margin: 0;
 }
 header .primary li {
   margin-right: 32px;
@@ -450,8 +442,6 @@ header .system {
 header .system ul {
   display: flex;
   list-style: none;
-  padding: 0;
-  margin: 0;
 }
 header .system li {
   margin-left: 32px;
@@ -633,6 +623,7 @@ header.header-dark a {
   padding-top: 96px;
   position: relative;
   text-align: center;
+  overflow: hidden;
   /***** end of .cards *****/
 }
 .showcase-one .supportive-text {
@@ -656,6 +647,31 @@ header.header-dark a {
 }
 .showcase-one .button-group {
   display: flex;
+  flex-direction: row;
+  column-gap: 16px;
+  justify-content: center;
+  margin-top: 48px;
+}
+.showcase-one .button-group button {
+  font-size: 1rem;
+}
+.showcase-one .button-group button.md-secondary {
+  text-transform: capitalize;
+  line-height: 1.5rem;
+  margin-top: 0;
+  padding: 18px 28px;
+}
+.showcase-one .button-group button.md-secondary .icon {
+  margin-right: 10px;
+}
+.showcase-one .button-group button.md-primary {
+  text-transform: capitalize;
+  line-height: 1.5rem;
+  background: #8654E1;
+  color: #FFFFFF;
+  border-radius: 0.5rem;
+  padding: 0 28px;
+  font-weight: 600;
 }
 .showcase-one .accent {
   background: url("../img/light-accent.png") no-repeat;
@@ -670,7 +686,7 @@ header.header-dark a {
   height: 30rem;
   position: relative;
   bottom: 0;
-  top: 0;
+  top: 70px;
   display: flex;
 }
 .showcase-one .cards .card-one {
@@ -693,6 +709,58 @@ header.header-dark a {
 }
 
 /***** end of .showcase-one *****/
+.features-one {
+  padding: 96px 0;
+}
+.features-one .supportive-text {
+  color: #8654E1;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+}
+.features-one .section-title {
+  color: #314056;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin-bottom: 16px;
+  text-transform: capitalize;
+}
+.features-one p {
+  color: #445469;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.6875rem;
+  margin-bottom: 32px;
+}
+.features-one .left {
+  width: 48%;
+}
+.features-one .right {
+  margin-left: auto;
+}
+.features-one .features-list {
+  display: flex;
+}
+.features-one .features-list .icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  float: left;
+}
+
+.feature-list {
+  display: flex;
+  list-style: none;
+  width: 48%;
+}
+.feature-list .feature {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
 .email-icon {
   background: url("../img/email-icon.svg") no-repeat;
   width: 20px;
@@ -835,4 +903,16 @@ header.header-dark a {
   background: url("../img/icons/list-icon.svg") no-repeat;
   width: 1.5rem;
   height: 1.5rem;
+}
+
+.sm-play-icon {
+  background: url("../img/play-icon.svg") no-repeat;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.unlimited-cards-icon {
+  background: url("../img/unlimited-cards-icon.png") no-repeat;
+  width: 3.375rem;
+  height: 3.75rem;
 }

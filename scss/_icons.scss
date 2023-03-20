@@ -136,3 +136,13 @@
     background: url('../img/icons/list-icon.svg') no-repeat;
     @include size(24, 24);
 }
+
+.sm-play-icon {
+    background: url('../img/play-icon.svg') no-repeat;
+    @include size(24, 24);
+}
+
+.unlimited-cards-icon {
+    background: url('../img/unlimited-cards-icon.png') no-repeat;
+    @include size(54, 60);
+}

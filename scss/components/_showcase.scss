@@ -8,6 +8,7 @@
     padding-top: 96px;
     position: relative;
     text-align: center;
+    overflow: hidden;
 
     .supportive-text {
         @include font-size(16);
@@ -36,6 +37,36 @@
 
     .button-group {
         @include flex();
+        flex-direction: row;
+        column-gap: 16px;
+        justify-content: center;
+        margin-top: 48px;
+
+        button {
+            @include font-size(16);
+            &.md-secondary {
+                text-transform: capitalize;
+                line-height: px-to-rem(24);
+                margin-top: 0;
+                padding: 18px 28px;
+                .icon {
+                    margin-right: 10px;
+                }
+            }
+
+            &.md-primary {
+                text-transform: capitalize;
+                line-height: px-to-rem(24);
+
+                @include bg($clr-primary);
+                @include font-color($clr-light-bg);
+
+                border-radius: px-to-rem(8);
+                padding: 0 28px;
+
+                @include font-weight(600);
+            }
+        }
     }
 
     .accent {
@@ -51,7 +82,7 @@
 
         position: relative;
         bottom: 0;
-        top: 0;
+        top: 70px;
 
         @include flex();
 
@@ -73,5 +104,8 @@
             top: 10px;
             z-index: 1;
         }
-    } /***** end of .cards *****/
-} /***** end of .showcase-one *****/
+    }
+
+    /***** end of .cards *****/
+}
+/***** end of .showcase-one *****/

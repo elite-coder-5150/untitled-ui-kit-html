@@ -1,0 +1,63 @@
+@import "../partials/vars";
+@import "../partials/mixins";
+
+.features-one {
+    padding: 96px 0;
+    .supportive-text {
+        @include font-color($clr-primary);
+        @include font-weight(600);
+        @include font-size(16);
+        @include line-height(24);
+
+        margin-bottom: px-to-rem(8);
+        text-transform: capitalize;
+    }
+
+    .section-title {
+        @include font-color($clr-dark-text);
+        @include font-weight(600);
+        @include font-size(32);
+        @include line-height(40);
+
+        margin-bottom: 16px;
+        text-transform: capitalize;
+    }
+
+    p {
+        @include font-color($clr-feature-text);
+        @include font-weight(400);
+        @include font-size(18);
+        @include line-height(27);
+
+        margin-bottom: 32px;
+    }
+
+
+
+    .left {
+        width: 48%;
+    }
+
+    .right {
+        margin-left: auto;
+    }
+
+    .features-list {
+        @include flex();
+
+        .icon {
+            @include size(56, 56);
+            float: left;
+        }
+    }
+}
+.feature-list {
+    @include flex();
+    @include unstyled-list();
+    width: 48%;
+    .feature {
+        @include flex();
+        flex-direction: row;
+        width: 100%;
+    }
+}

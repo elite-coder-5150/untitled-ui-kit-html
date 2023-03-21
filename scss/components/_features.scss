@@ -56,11 +56,39 @@
     @include flex();
     @include unstyled-list();
 
-    width: 48%;
+    .feature-list {
+        display: flex;
+        flex-direction: column;
 
-    .feature {
-        @include flex();
-        flex-direction: row;
-        width: 100%;
+        .feature-item {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+
+            &.left {
+                //width: 60px;
+                .icon {
+                    float: left;
+                }
+                .title {
+                    margin-top: 0;
+                }
+
+                .description {
+                    margin-bottom: 0;
+                }
+            }
+
+            &.right {
+                //width: 48%;
+                margin-left: auto;
+            }
+        }
+    }
+
+    .right {
+        margin-left: auto;
     }
 }

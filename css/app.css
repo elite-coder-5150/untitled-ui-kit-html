@@ -753,12 +753,32 @@ header.header-dark a {
 .feature-list {
   display: flex;
   list-style: none;
-  width: 48%;
 }
-.feature-list .feature {
+.feature-list .feature-list {
+  display: flex;
+  flex-direction: column;
+}
+.feature-list .feature-list .feature-item {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.feature-list .feature-list .feature-item.left .icon {
+  float: left;
+}
+.feature-list .feature-list .feature-item.left .title {
+  margin-top: 0;
+}
+.feature-list .feature-list .feature-item.left .description {
+  margin-bottom: 0;
+}
+.feature-list .feature-list .feature-item.right {
+  margin-left: auto;
+}
+.feature-list .right {
+  margin-left: auto;
 }
 
 .email-icon {

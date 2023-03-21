@@ -3,6 +3,7 @@
 
 .features-one {
     padding: 96px 0;
+
     .supportive-text {
         @include font-color($clr-primary);
         @include font-weight(600);
@@ -54,7 +55,9 @@
 .feature-list {
     @include flex();
     @include unstyled-list();
+
     width: 48%;
+
     .feature {
         @include flex();
         flex-direction: row;

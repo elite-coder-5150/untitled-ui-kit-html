@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Notifications</title>
+    <link rel="icon" href="img/logo.svg">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <ul class="notification">
+        <li class="notification">
+            <div class="icon">
+                <div class="notification-icon"></div>
+            </div>
+            <div class="title">notification title</div>
+            <p class="notification-text">
+
+            </p>
+        </li>
+    </ul>
+    <script>
+        const $ = jQuery;
+
+        const notification = $('.notification');
+        const form = $('.form');
+
+        form.on('submit', (e) => {
+            e.preventDefault();
+            const title = form.title.value;
+            const text = form.text.value;
+            const notificationTitle = notification.querySelector('.title');
+            const notificationText = notification.querySelector('.notification-text');
+            notificationTitle.textContent = title;
+            notificationText.textContent = text;
+        })
+
+        notification.on('click', () => {
+            notification.classList.add('show');
+            notification.classList.remove('hide');
+        });
+
+        const toggleNotification = () => {
+            if (!(notification.classList.contains('show'))) {
+                notification.classList.add('show');
+                notification.classList.remove('hide');
+            } else {
+                notification.classList.add('hide');
+                notification.classList.remove('show');
+            }
+        }
+
+        // q: what does the above function do?
+        // a: it toggles the notification shown or hidden
+    </script>
+</body>
+</html>

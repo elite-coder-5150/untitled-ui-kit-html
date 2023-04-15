@@ -781,6 +781,25 @@ header.header-dark a {
   margin-left: auto;
 }
 
+.register-page {
+  background: #F9FAFB;
+}
+
+.notification {
+  border: 1px solid #CFD5DE;
+  border-radius: 0.5rem;
+}
+.notification .notification-icon {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+.notification .notification-text {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #314056;
+}
+
 .email-icon {
   background: url("../img/email-icon.svg") no-repeat;
   width: 20px;

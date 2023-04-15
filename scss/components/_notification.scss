@@ -1,0 +1,17 @@
+@import "../partials/vars";
+
+.notification {
+    border: 1px solid $clr-base-border;
+    border-radius: 0.5rem;
+    .notification-icon {
+        font-size: 1.5rem;
+        margin-right: 1rem;
+    }
+
+    .notification-text {
+        font-size: 1.125rem;
+        font-weight: 500;
+        line-height: 1.5;
+        color: $clr-dark-text;
+    }
+}

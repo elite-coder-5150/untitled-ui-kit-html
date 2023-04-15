@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/elite-coder-5150/untitled-ui-kit-html#readme",
   "dependencies": {
-    "esm": "^3.2.25"
+    "esm": "^3.2.25",
+    "jquery": "^3.6.4"
   }
 }

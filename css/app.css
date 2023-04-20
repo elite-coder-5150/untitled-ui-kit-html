@@ -14,6 +14,9 @@ body.menu {
 body.update-payment-body {
   background: #F2F4F7;
 }
+body.landing-page-one {
+  background: #F2F4F7;
+}
 
 .container {
   width: 1600px;
@@ -230,6 +233,7 @@ input:checked + .slider:before {
 }
 .pricing-table-one .pricing-table {
   display: flex;
+  flex-direction: row;
   flex-direction: column;
   padding: 96px 28px 0 112px;
 }
@@ -256,6 +260,7 @@ input:checked + .slider:before {
 }
 .pricing-table-one .pricing-table .pricing-cards .pricing-card .card-header {
   display: flex;
+  flex-direction: row;
   flex-direction: column;
   align-items: center;
   padding: 32px 0;
@@ -279,16 +284,19 @@ input:checked + .slider:before {
 }
 .pricing-table-one .pricing-table .pricing-cards .pricing-card .card-body {
   display: flex;
+  flex-direction: row;
   flex-direction: column;
   padding: 32px;
 }
 .pricing-table-one .pricing-table .pricing-cards .pricing-card .card-body ul {
   list-style: none;
   display: flex;
+  flex-direction: row;
   flex-direction: column;
 }
 .pricing-table-one .pricing-table .pricing-cards .pricing-card .card-body li {
   display: flex;
+  flex-direction: row;
   text-transform: capitalize;
   margin-bottom: 16px;
   color: #445469;
@@ -299,6 +307,7 @@ input:checked + .slider:before {
 }
 .pricing-table-one .features {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   flex-direction: row;
   padding: 96px 28px 60px 112px;
@@ -336,6 +345,7 @@ input:checked + .slider:before {
 }
 .pricing-table-one .features .feature .learn-more {
   display: flex;
+  flex-direction: row;
   margin-top: 20px;
 }
 .pricing-table-one .faq {
@@ -359,10 +369,12 @@ input:checked + .slider:before {
 }
 .pricing-table-one .post-footer {
   display: flex;
+  flex-direction: row;
   line-height: 38px;
 }
 .pricing-table-one .post-footer .logo {
   display: flex;
+  flex-direction: row;
 }
 .pricing-table-one .post-footer .copyright {
   margin-left: auto;
@@ -372,6 +384,7 @@ input:checked + .slider:before {
 
 .footer-one {
   display: flex;
+  flex-direction: row;
   flex-direction: row;
   width: 1216px;
   margin: 0 auto;
@@ -404,11 +417,13 @@ input:checked + .slider:before {
 header {
   display: flex;
   flex-direction: row;
+  flex-direction: row;
   padding: 28px;
   border-bottom: 1px solid #CFD5DE;
 }
 header .logo {
   display: flex;
+  flex-direction: row;
   flex-direction: row;
   align-items: center;
 }
@@ -421,6 +436,7 @@ header .primary {
 }
 header .primary ul {
   display: flex;
+  flex-direction: row;
   list-style: none;
 }
 header .primary li {
@@ -441,6 +457,7 @@ header .system {
 }
 header .system ul {
   display: flex;
+  flex-direction: row;
   list-style: none;
 }
 header .system li {
@@ -532,6 +549,7 @@ header.header-dark a {
 }
 .update-card .card-footer .button-group {
   display: flex;
+  flex-direction: row;
 }
 .update-card .card-footer .button-group button {
   margin-right: 4%;
@@ -648,6 +666,7 @@ header.header-dark a {
 .showcase-one .button-group {
   display: flex;
   flex-direction: row;
+  flex-direction: row;
   column-gap: 16px;
   justify-content: center;
   margin-top: 48px;
@@ -688,6 +707,7 @@ header.header-dark a {
   bottom: 0;
   top: 70px;
   display: flex;
+  flex-direction: row;
 }
 .showcase-one .cards .card-one {
   background: url("../img/card-one-light.png") no-repeat;
@@ -743,6 +763,7 @@ header.header-dark a {
 }
 .features-one .features-list {
   display: flex;
+  flex-direction: row;
 }
 .features-one .features-list .icon {
   width: 3.5rem;
@@ -752,6 +773,7 @@ header.header-dark a {
 
 .feature-list {
   display: flex;
+  flex-direction: row;
   list-style: none;
 }
 .feature-list .feature-list {
@@ -800,6 +822,49 @@ header.header-dark a {
   color: #314056;
 }
 
+.about-page-one .about-showcase-one {
+  text-align: center;
+  padding: 96px 0;
+}
+.about-page-one .about-showcase-one .supportive-text {
+  color: #8654E1;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+.about-page-one .about-showcase-one .title {
+  font-size: 3rem;
+  line-height: 60px;
+}
+.about-page-one .about-showcase-one p {
+  font-size: 1.25rem;
+  color: #475467;
+  line-height: 28px;
+  margin-bottom: 32px;
+  margin-top: 24px;
+}
+.about-page-one .about-showcase-one p:first-letter {
+  text-transform: capitalize;
+}
+.about-page-one .metrics {
+  display: flex;
+  flex-direction: row;
+}
+.about-page-one .metrics .right {
+  margin-left: 96px;
+}
+.about-page-one .metrics .supportive-text {
+  color: #8654E1;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+.about-page-one .careers {
+  padding: 96px 0;
+  text-align: center;
+}
+.about-page-one .careers .supportive-text {
+  color: #8654E1;
+  @inclucd de typography();
+}
 .email-icon {
   background: url("../img/email-icon.svg") no-repeat;
   width: 20px;

@@ -1,0 +1,62 @@
+@import "../partials/vars";
+@import "../partials/mixins";
+
+.about-page-one {
+    .about-showcase-one {
+        text-align: center;
+        padding: 96px 0;
+
+        .supportive-text {
+            @include font-color($clr-primary);
+
+            text-transform: capitalize;
+            margin-bottom: 8px;
+        }
+
+        .title {
+            @include font-size(48);
+
+            line-height: 60px;
+        }
+
+        p {
+            @include font-size(20);
+            @include font-color($clr-large-text);
+
+            line-height: 28px;
+            margin-bottom: 32px;
+            margin-top: 24px;
+
+            &:first-letter {
+                text-transform: capitalize;
+            }
+        }
+    }
+
+    .metrics {
+        @include flex();
+        .right {
+            margin-left: 96px;
+        }
+
+        .supportive-text {
+            @include font-color($clr-primary);
+
+            text-transform: capitalize;
+            margin-bottom: 8px;
+        }
+    }
+
+    .careers {
+        padding: 96px 0;
+        text-align: center;
+
+        .supportive-text {
+            @include font-color($clr-primary);
+            @include typography();
+        }
+    }
+    .about-footer { }
+
+    .post-footer { }
+}

@@ -46,6 +46,7 @@
 
 @mixin flex() {
     display: flex;
+    flex-direction: row;
 }
 
 @mixin size($width, $height) {
@@ -67,4 +68,9 @@
 
 @mixin unstyled-list() {
     list-style: none;
+}
+
+@mixin typography() {
+    font-weight: bold;
+    text-transform: capitalize;
 }

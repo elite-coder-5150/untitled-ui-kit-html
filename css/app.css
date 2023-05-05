@@ -863,7 +863,54 @@ header.header-dark a {
 }
 .about-page-one .careers .supportive-text {
   color: #8654E1;
-  @inclucd de typography();
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.about-page-one .about-one-dark {
+  background: #1C2939;
+  padding: 64px 0;
+}
+.about-page-one .about-one-dark .logo {
+  display: flex;
+  flex-direction: row;
+}
+.about-page-one .about-one-dark .logo .logo-text {
+  color: #FFFFFF;
+  line-height: 38px;
+  margin-left: 10px;
+}
+.about-page-one .about-one-dark .col:nth-child(1) {
+  width: 320px;
+  margin-right: 64px;
+}
+.about-page-one .about-one-dark .col:nth-child(2), .about-page-one .about-one-dark .col:nth-child(3), .about-page-one .about-one-dark .col:nth-child(4), .about-page-one .about-one-dark .col:nth-child(5) {
+  margin-right: 32px;
+}
+.about-page-one .about-one-dark .col:nth-child(3) {
+  margin-right: 32px;
+}
+.about-page-one .about-one-dark .col .col-title {
+  color: #FFFFFF;
+  font-size: 0.875rem;
+  margin-bottom: 16px;
+  text-transform: capitalize;
+}
+.about-page-one .about-one-dark .col ul {
+  list-style: none;
+}
+.about-page-one .about-one-dark .col ul li {
+  margin-bottom: 12px;
+}
+.about-page-one .about-one-dark .col ul a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  font-size: 0.875rem;
+}
+.about-page-one .about-one-dark .col p {
+  color: #FFFFFF;
+  line-height: 24px;
+  margin-top: 20px;
 }
 .email-icon {
   background: url("../img/email-icon.svg") no-repeat;
